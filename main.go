@@ -33,10 +33,24 @@ func main() {
 			}
 		}
 	}
-	_ = ioutil.WriteFile("hosts", buf.Bytes(), 0664)
 	username := os.Getenv("username")
 	password := os.Getenv("password")
-	_ = exec.Command("git", "config", "remote.origin.url", fmt.Sprintf("https://%s:%s@github.com/openset/hosts.git", username, password)).Run()
-	_ = exec.Command("git", "commit", "-am", "weekly update").Run()
-	_ = exec.Command("git", "push", "origin", "master").Run()
+	err := ioutil.WriteFile("hosts", buf.Bytes(), 0664)
+	checkErr(err)
+	err = exec.Command("git", "config", "user.name", username).Run()
+	checkErr(err)
+	err = exec.Command("git", "config", "user.email", "openset.wang@gmail.com").Run()
+	checkErr(err)
+	err = exec.Command("git", "config", "remote.origin.url", fmt.Sprintf("https://%s:%s@github.com/openset/hosts.git", username, password)).Run()
+	checkErr(err)
+	err = exec.Command("git", "commit", "-am", "weekly update").Run()
+	checkErr(err)
+	err = exec.Command("git", "push", "origin", "master").Run()
+	checkErr(err)
+}
+
+func checkErr(err error) {
+	if err != nil {
+		log.Fatalln(err)
+	}
 }
