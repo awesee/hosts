@@ -61,7 +61,7 @@ func buildHosts() {
 			if ok(addr) {
 				data[host][addr] = 0
 				hostsData = append(hostsData, rowType{addr: addr, host: host})
-			} else if f > failedLimit {
+			} else if f >= failedLimit {
 				delete(data[host], addr)
 			} else {
 				data[host][addr]++
