@@ -51,7 +51,7 @@ func main() {
 			}
 		}
 	}
-	saveData(data)
+	saveData(data, true)
 }
 
 func buildHosts() {
@@ -68,7 +68,7 @@ func buildHosts() {
 			}
 		}
 	}
-	saveData(data)
+	saveData(data, false)
 	sort.Slice(hostsData, func(i, j int) bool {
 		if hostsData[i].host == hostsData[j].host {
 			return hostsData[i].addr < hostsData[j].addr
@@ -85,12 +85,14 @@ func buildHosts() {
 	checkErr(err)
 }
 
-func saveData(data dataType) {
+func saveData(data dataType, display bool) {
 	cts, err := json.MarshalIndent(data, "", "\t")
 	checkErr(err)
 	err = ioutil.WriteFile(dataFile, cts, 0664)
 	checkErr(err)
-	fmt.Println(string(cts))
+	if display {
+		fmt.Println(string(cts))
+	}
 }
 
 func ok(ip string) bool {
