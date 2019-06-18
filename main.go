@@ -24,7 +24,7 @@ var data = make(dataType)
 const (
 	dataFile    = "data.json"
 	hostsFile   = "hosts"
-	failedLimit = 10
+	failedLimit = 3
 )
 
 func init() {
