@@ -9,6 +9,7 @@ import (
 	"net"
 	"os"
 	"sort"
+	"strings"
 	"time"
 )
 
@@ -38,22 +39,13 @@ func main() {
 		buildHosts()
 		return
 	}
-	hosts := [...]string{
-		"cloud.google.com",
-		"code.googlesource.com",
-		"go.googlesource.com",
-		"golang.org",
-	}
-	for _, host := range hosts {
+	for host := range data {
 		addrs, err := net.LookupHost(host)
 		if err != nil {
 			log.Println(host, err)
 		}
 		for _, addr := range addrs {
-			if _, ok := data[host]; !ok {
-				data[host] = make(map[string]uint)
-			}
-			if len(addr) < 16 {
+			if strings.ContainsRune(addr, '.') {
 				data[host][addr] = data[host][addr]
 				fmt.Print(rowFormat(addr, host))
 			}
@@ -67,6 +59,7 @@ func buildHosts() {
 	for host, addrs := range data {
 		for addr, f := range addrs {
 			if ok(addr) {
+				data[host][addr] = 0
 				hostsData = append(hostsData, rowType{addr: addr, host: host})
 			} else if f > failedLimit {
 				delete(data[host], addr)
@@ -85,7 +78,7 @@ func buildHosts() {
 	var buf bytes.Buffer
 	for _, r := range hostsData {
 		row := rowFormat(r.addr, r.host)
-		fmt.Println(row)
+		fmt.Print(row)
 		buf.WriteString(row)
 	}
 	err := ioutil.WriteFile(hostsFile, buf.Bytes(), 0664)
