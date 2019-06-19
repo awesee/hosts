@@ -24,6 +24,7 @@ const (
 var (
 	data   = make(dataType)
 	tokens = make(chan bool, parallelLimit)
+	status sync.Map
 )
 
 type dataType map[string]map[string]uint
@@ -122,6 +123,9 @@ func saveData(data dataType, display bool) {
 }
 
 func ok(ip string) bool {
+	if v, ok := status.Load(ip); ok {
+		return v.(bool)
+	}
 	timeout := 3 * time.Second
 	conn, err := net.DialTimeout("tcp4", ip+":80", timeout)
 	if err != nil {
@@ -129,6 +133,7 @@ func ok(ip string) bool {
 	} else {
 		defer conn.Close()
 	}
+	status.Store(ip, conn != nil)
 	return conn != nil
 }
 
