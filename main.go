@@ -152,10 +152,7 @@ func checkErr(err error) {
 func autoPush() {
 	password := os.Getenv("password")
 	if password != "" {
-		dir, err := os.Getwd()
-		checkErr(err)
-		log.Println(dir)
-		err = exec.Command("git", "config", "user.name", "openset").Run()
+		err := exec.Command("git", "config", "user.name", "openset").Run()
 		checkErr(err)
 		err = exec.Command("git", "config", "user.email", "openset.wang@gmail.com").Run()
 		checkErr(err)
