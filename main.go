@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"math/rand"
 	"net"
 	"os"
 	"os/exec"
@@ -41,6 +42,7 @@ func init() {
 	checkErr(err)
 	err = json.Unmarshal(cts, &data)
 	checkErr(err)
+	rand.Seed(time.Now().Unix())
 }
 
 func main() {
@@ -157,6 +159,8 @@ func autoPush() {
 		err = exec.Command("git", "config", "user.email", "openset.wang@gmail.com").Run()
 		checkErr(err)
 		err = exec.Command("git", "config", "remote.origin.url", fmt.Sprintf("https://openset:%s@github.com/openset/hosts.git", password)).Run()
+		checkErr(err)
+		err = exec.Command("git", "checkout ", "master").Run()
 		checkErr(err)
 		err = exec.Command("git", "commit", "-am", "daily update").Run()
 		checkErr(err)
