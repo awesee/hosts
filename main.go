@@ -43,7 +43,6 @@ func init() {
 	checkErr(err)
 	err = json.Unmarshal(cts, &data)
 	checkErr(err)
-	rand.Seed(time.Now().Unix())
 }
 
 func main() {
@@ -154,6 +153,7 @@ func checkErr(err error) {
 
 func autoPush() {
 	password := os.Getenv("password")
+	rand.Seed(time.Now().Unix())
 	if password != "" && rand.Intn(randN) == 0 {
 		err := exec.Command("git", "config", "user.name", "openset").Run()
 		checkErr(err)
