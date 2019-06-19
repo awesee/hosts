@@ -104,7 +104,7 @@ func buildHosts() {
 		if hostsData[i].host == hostsData[j].host {
 			return hostsData[i].addr < hostsData[j].addr
 		}
-		return hostsData[i].host < hostsData[j].host
+		return reverse(hostsData[i].host) < reverse(hostsData[j].host)
 	})
 	var buf bytes.Buffer
 	for _, r := range hostsData {
@@ -172,4 +172,12 @@ func autoPush() {
 		err = exec.Command("git", "push", "origin", "master").Run()
 		checkErr(err)
 	}
+}
+
+func reverse(s string) string {
+	runes := []rune(s)
+	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
+		runes[i], runes[j] = runes[j], runes[i]
+	}
+	return string(runes)
 }
