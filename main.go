@@ -19,8 +19,8 @@ import (
 const (
 	dataFile      = "data.json"
 	hostsFile     = "hosts"
+	parallelLimit = 1 << 7
 	failedLimit   = 3
-	parallelLimit = 8
 	randN         = 5
 )
 
@@ -50,18 +50,29 @@ func main() {
 		buildHosts()
 		return
 	}
+	var wg sync.WaitGroup
+	var mu sync.Mutex
 	for host := range data {
-		addrs, err := net.LookupHost(host)
-		if err != nil {
-			log.Println(host, err)
-		}
-		for _, addr := range addrs {
-			if strings.ContainsRune(addr, '.') {
-				data[host][addr] = data[host][addr]
-				fmt.Print(rowFormat(addr, host))
+		wg.Add(1)
+		tokens <- true
+		go func(host string) {
+			addrs, err := net.LookupHost(host)
+			if err != nil {
+				log.Println(host, err)
 			}
-		}
+			for _, addr := range addrs {
+				if strings.ContainsRune(addr, '.') {
+					mu.Lock()
+					data[host][addr] = data[host][addr]
+					fmt.Print(rowFormat(addr, host))
+					mu.Unlock()
+				}
+			}
+			<-tokens
+			wg.Done()
+		}(host)
 	}
+	wg.Wait()
 	saveData(data, true)
 	autoPush()
 }
