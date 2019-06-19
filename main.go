@@ -28,6 +28,8 @@ var (
 	data   = make(dataType)
 	tokens = make(chan bool, parallelLimit)
 	status sync.Map
+	wg     sync.WaitGroup
+	mu     sync.Mutex
 )
 
 type dataType map[string]map[string]uint
@@ -35,7 +37,6 @@ type dataType map[string]map[string]uint
 type rowType struct {
 	addr string
 	host string
-	ok   bool
 }
 
 func init() {
@@ -50,8 +51,6 @@ func main() {
 		buildHosts()
 		return
 	}
-	var wg sync.WaitGroup
-	var mu sync.Mutex
 	for host := range data {
 		wg.Add(1)
 		tokens <- true
@@ -78,32 +77,23 @@ func main() {
 }
 
 func buildHosts() {
-	var wg sync.WaitGroup
 	hostsData := make([]rowType, 0)
-	hostsCh := make(chan rowType, 16)
-	go func() {
-		for r := range hostsCh {
-			if r.ok {
-				data[r.host][r.addr] = 0
-				hostsData = append(hostsData, r)
-			} else if data[r.host][r.addr] >= failedLimit {
-				delete(data[r.host], r.addr)
-			} else {
-				data[r.host][r.addr]++
-			}
-			wg.Done()
-		}
-	}()
 	for host, addrs := range data {
 		for addr := range addrs {
-			wg.Add(2)
+			wg.Add(1)
 			tokens <- true
 			go func(addr, host string) {
-				hostsCh <- rowType{
-					addr: addr,
-					host: host,
-					ok:   ok(addr),
+				ok := ok(addr)
+				mu.Lock()
+				if ok {
+					data[host][addr] = 0
+					hostsData = append(hostsData, rowType{addr: addr, host: host})
+				} else if data[host][addr] >= failedLimit {
+					delete(data[host], addr)
+				} else {
+					data[host][addr]++
 				}
+				mu.Unlock()
 				<-tokens
 				wg.Done()
 			}(addr, host)
