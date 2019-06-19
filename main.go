@@ -160,7 +160,7 @@ func autoPush() {
 		checkErr(err)
 		err = exec.Command("git", "commit", "-am", "daily update").Run()
 		checkErr(err)
-		err = exec.Command("git", "push").Run()
+		err = exec.Command("git", "push", "origin", "master").Run()
 		checkErr(err)
 	}
 }
