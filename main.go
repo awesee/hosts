@@ -8,6 +8,7 @@ import (
 	"log"
 	"net"
 	"os"
+	"os/exec"
 	"sort"
 	"strings"
 	"sync"
@@ -60,6 +61,7 @@ func main() {
 		}
 	}
 	saveData(data, true)
+	autoPush()
 }
 
 func buildHosts() {
@@ -144,5 +146,21 @@ func rowFormat(addr, host string) string {
 func checkErr(err error) {
 	if err != nil {
 		log.Fatalln(err)
+	}
+}
+
+func autoPush() {
+	password := os.Getenv("password")
+	if password != "" {
+		err := exec.Command("git", "config", "user.name", "openset").Run()
+		checkErr(err)
+		err = exec.Command("git", "config", "user.email", "openset.wang@gmail.com").Run()
+		checkErr(err)
+		err = exec.Command("git", "config", "remote.origin.url", fmt.Sprintf("https://openset:%s@github.com/openset/hosts.git", password)).Run()
+		checkErr(err)
+		err = exec.Command("git", "commit", "-am", "daily update").Run()
+		checkErr(err)
+		err = exec.Command("git", "push").Run()
+		checkErr(err)
 	}
 }
