@@ -21,7 +21,7 @@ const (
 	hostsFile     = "hosts"
 	failedLimit   = 3
 	parallelLimit = 8
-	randN         = 10
+	randN         = 5
 )
 
 var (
