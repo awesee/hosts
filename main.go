@@ -10,22 +10,29 @@ import (
 	"os"
 	"sort"
 	"strings"
+	"sync"
 	"time"
+)
+
+const (
+	dataFile      = "data.json"
+	hostsFile     = "hosts"
+	failedLimit   = 3
+	parallelLimit = 8
+)
+
+var (
+	data   = make(dataType)
+	tokens = make(chan bool, parallelLimit)
 )
 
 type dataType map[string]map[string]uint
 
 type rowType struct {
-	addr, host string
+	addr string
+	host string
+	ok   bool
 }
-
-var data = make(dataType)
-
-const (
-	dataFile    = "data.json"
-	hostsFile   = "hosts"
-	failedLimit = 3
-)
 
 func init() {
 	cts, err := ioutil.ReadFile(dataFile)
@@ -55,19 +62,38 @@ func main() {
 }
 
 func buildHosts() {
+	var wg sync.WaitGroup
 	hostsData := make([]rowType, 0)
-	for host, addrs := range data {
-		for addr, f := range addrs {
-			if ok(addr) {
-				data[host][addr] = 0
-				hostsData = append(hostsData, rowType{addr: addr, host: host})
-			} else if f >= failedLimit {
-				delete(data[host], addr)
+	hostsCh := make(chan rowType, 16)
+	go func() {
+		for r := range hostsCh {
+			if r.ok {
+				data[r.host][r.addr] = 0
+				hostsData = append(hostsData, r)
+			} else if data[r.host][r.addr] >= failedLimit {
+				delete(data[r.host], r.addr)
 			} else {
-				data[host][addr]++
+				data[r.host][r.addr]++
 			}
+			wg.Done()
+		}
+	}()
+	for host, addrs := range data {
+		for addr := range addrs {
+			wg.Add(2)
+			tokens <- true
+			go func(addr, host string) {
+				hostsCh <- rowType{
+					addr: addr,
+					host: host,
+					ok:   ok(addr),
+				}
+				<-tokens
+				wg.Done()
+			}(addr, host)
 		}
 	}
+	wg.Wait()
 	saveData(data, false)
 	sort.Slice(hostsData, func(i, j int) bool {
 		if hostsData[i].host == hostsData[j].host {
