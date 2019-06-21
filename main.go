@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/json"
 	"fmt"
@@ -19,6 +20,7 @@ import (
 const (
 	dataFile      = "data.json"
 	hostsFile     = "hosts"
+	hostsTxt      = "hosts.txt"
 	parallelLimit = 1 << 7
 	failedLimit   = 3
 	randN         = 5
@@ -47,10 +49,21 @@ func init() {
 }
 
 func main() {
+	cmdName := ""
 	if len(os.Args) > 1 {
-		buildHosts()
-		return
+		cmdName = os.Args[1]
 	}
+	switch cmdName {
+	case "build":
+		buildHosts()
+	case "import":
+		importHosts()
+	default:
+		updateData()
+	}
+}
+
+func updateData() {
 	for host := range data {
 		wg.Add(1)
 		tokens <- true
@@ -62,7 +75,7 @@ func main() {
 			for _, addr := range addrs {
 				if strings.ContainsRune(addr, '.') {
 					mu.Lock()
-					data[host][addr] = data[host][addr]
+					setData(host, addr)
 					fmt.Print(rowFormat(addr, host))
 					mu.Unlock()
 				}
@@ -117,6 +130,31 @@ func buildHosts() {
 	checkErr(err)
 }
 
+func importHosts() {
+	fi, err := os.Stat(hostsTxt)
+	checkErr(err)
+	if !fi.Mode().IsRegular() {
+		return
+	}
+	file, err := os.Open(hostsTxt)
+	checkErr(err)
+	defer file.Close()
+	br := bufio.NewReader(file)
+	for {
+		line, err := br.ReadString('\n')
+		if err != nil {
+			break
+		}
+		if len(line) > 0 && line[0] != '#' {
+			r := strings.Fields(line)
+			if len(r) >= 2 {
+				setData(r[1], r[0])
+			}
+		}
+	}
+	saveData(data, false)
+}
+
 func saveData(data dataType, display bool) {
 	cts, err := json.MarshalIndent(data, "", "\t")
 	checkErr(err)
@@ -125,6 +163,13 @@ func saveData(data dataType, display bool) {
 	if display {
 		fmt.Println(string(cts))
 	}
+}
+
+func setData(host, addr string) {
+	if _, ok := data[host]; !ok {
+		data[host] = make(map[string]uint)
+	}
+	data[host][addr] = data[host][addr]
 }
 
 func ok(ip string) bool {
