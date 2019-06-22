@@ -28,17 +28,22 @@ const (
 
 var (
 	data   = make(dataType)
-	tokens = make(chan bool, parallelLimit)
 	status sync.Map
 	wg     sync.WaitGroup
-	mu     sync.Mutex
 )
 
-type dataType map[string]map[string]uint
+type dataType map[string]map[string]int
+
+type hostType struct {
+	host  string
+	addrs []string
+	ok    bool
+}
 
 type rowType struct {
 	addr string
 	host string
+	ok   bool
 }
 
 func init() {
@@ -64,56 +69,77 @@ func main() {
 }
 
 func updateData() {
+	jobs := make(chan string, parallelLimit)
+	results := make(chan hostType, parallelLimit)
+	go func() {
+		for r := range results {
+			if r.ok {
+				for _, addr := range r.addrs {
+					if strings.ContainsRune(addr, '.') {
+						setData(r.host, addr)
+						fmt.Print(rowFormat(addr, r.host))
+					}
+				}
+			} else {
+				delete(data, r.host)
+			}
+			wg.Done()
+		}
+	}()
+	for i := 0; i < parallelLimit; i++ {
+		go func() {
+			for host := range jobs {
+				addrs, err := net.LookupHost(host)
+				if err != nil {
+					log.Println(host, err)
+				}
+				ok := err == nil || !strings.HasSuffix(err.Error(), "no such host")
+				results <- hostType{host: host, addrs: addrs, ok: ok}
+			}
+		}()
+	}
 	for host := range data {
 		wg.Add(1)
-		tokens <- true
-		go func(host string) {
-			addrs, err := net.LookupHost(host)
-			if err != nil {
-				log.Println(host, err)
-			}
-			for _, addr := range addrs {
-				if strings.ContainsRune(addr, '.') {
-					mu.Lock()
-					setData(host, addr)
-					fmt.Print(rowFormat(addr, host))
-					mu.Unlock()
-				}
-			}
-			<-tokens
-			wg.Done()
-		}(host)
+		jobs <- host
 	}
 	wg.Wait()
-	saveData(data, true)
+	saveData(data)
 	autoPush()
 }
 
 func buildHosts() {
 	hostsData := make([]rowType, 0)
+	jobs := make(chan rowType, parallelLimit)
+	results := make(chan rowType, parallelLimit)
+	for i := 0; i < parallelLimit; i++ {
+		go func() {
+			for j := range jobs {
+				j.ok = ok(j.addr)
+				results <- j
+			}
+		}()
+	}
+	go func() {
+		for r := range results {
+			if r.ok {
+				data[r.host][r.addr] = 0
+				hostsData = append(hostsData, r)
+			} else if data[r.host][r.addr] >= failedLimit {
+				delete(data[r.host], r.addr)
+			} else {
+				data[r.host][r.addr]++
+			}
+			wg.Done()
+		}
+	}()
 	for host, addrs := range data {
 		for addr := range addrs {
 			wg.Add(1)
-			tokens <- true
-			go func(addr, host string) {
-				ok := ok(addr)
-				mu.Lock()
-				if ok {
-					data[host][addr] = 0
-					hostsData = append(hostsData, rowType{addr: addr, host: host})
-				} else if data[host][addr] >= failedLimit {
-					delete(data[host], addr)
-				} else {
-					data[host][addr]++
-				}
-				mu.Unlock()
-				<-tokens
-				wg.Done()
-			}(addr, host)
+			jobs <- rowType{addr: addr, host: host}
 		}
 	}
 	wg.Wait()
-	saveData(data, false)
+	saveData(data)
 	sort.Slice(hostsData, func(i, j int) bool {
 		if hostsData[i].host == hostsData[j].host {
 			return hostsData[i].addr < hostsData[j].addr
@@ -152,22 +178,19 @@ func importHosts() {
 			}
 		}
 	}
-	saveData(data, false)
+	saveData(data)
 }
 
-func saveData(data dataType, display bool) {
+func saveData(data dataType) {
 	cts, err := json.MarshalIndent(data, "", "\t")
 	checkErr(err)
 	err = ioutil.WriteFile(dataFile, cts, 0664)
 	checkErr(err)
-	if display {
-		fmt.Println(string(cts))
-	}
 }
 
 func setData(host, addr string) {
 	if _, ok := data[host]; !ok {
-		data[host] = make(map[string]uint)
+		data[host] = make(map[string]int)
 	}
 	data[host][addr] = data[host][addr]
 }
@@ -178,13 +201,14 @@ func ok(ip string) bool {
 	}
 	timeout := 3 * time.Second
 	conn, err := net.DialTimeout("tcp4", ip+":80", timeout)
+	ok := conn != nil
 	if err != nil {
 		log.Println(ip, err)
 	} else {
-		defer conn.Close()
+		_ = conn.Close()
 	}
-	status.Store(ip, conn != nil)
-	return conn != nil
+	status.Store(ip, ok)
+	return ok
 }
 
 func rowFormat(addr, host string) string {
