@@ -71,6 +71,22 @@ func main() {
 func updateData() {
 	jobs := make(chan string, parallelLimit)
 	results := make(chan hostType, parallelLimit)
+	hostList := make([]string, 0)
+	for host := range data {
+		hostList = append(hostList, host)
+	}
+	for i := 0; i < parallelLimit; i++ {
+		go func() {
+			for host := range jobs {
+				addrs, err := net.LookupHost(host)
+				if err != nil {
+					log.Println(host, err)
+				}
+				ok := err == nil || !strings.HasSuffix(err.Error(), "no such host")
+				results <- hostType{host: host, addrs: addrs, ok: ok}
+			}
+		}()
+	}
 	go func() {
 		for r := range results {
 			if r.ok {
@@ -86,19 +102,7 @@ func updateData() {
 			wg.Done()
 		}
 	}()
-	for i := 0; i < parallelLimit; i++ {
-		go func() {
-			for host := range jobs {
-				addrs, err := net.LookupHost(host)
-				if err != nil {
-					log.Println(host, err)
-				}
-				ok := err == nil || !strings.HasSuffix(err.Error(), "no such host")
-				results <- hostType{host: host, addrs: addrs, ok: ok}
-			}
-		}()
-	}
-	for host := range data {
+	for _, host := range hostList {
 		wg.Add(1)
 		jobs <- host
 	}
