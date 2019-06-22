@@ -199,19 +199,19 @@ func setData(host, addr string) {
 	data[host][addr] = data[host][addr]
 }
 
-func ok(ip string) bool {
-	if v, ok := status.Load(ip); ok {
+func ok(address string) bool {
+	if v, ok := status.Load(address); ok {
 		return v.(bool)
 	}
 	timeout := 3 * time.Second
-	conn, err := net.DialTimeout("tcp4", ip+":80", timeout)
+	conn, err := net.DialTimeout("tcp4", address+":80", timeout)
 	ok := conn != nil
 	if err != nil {
-		log.Println(ip, err)
+		log.Println(address, err)
 	} else {
 		_ = conn.Close()
 	}
-	status.Store(ip, ok)
+	status.Store(address, ok)
 	return ok
 }
 
