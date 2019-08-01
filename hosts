@@ -285,7 +285,6 @@
 54.240.254.239  us-west-2.console.aws.amazon.com
 54.240.254.246  us-west-2.console.aws.amazon.com
 52.216.107.46   s3.amazonaws.com
-52.216.110.45   s3.amazonaws.com
 52.216.110.69   s3.amazonaws.com
 52.216.110.77   s3.amazonaws.com
 52.216.111.61   s3.amazonaws.com
@@ -293,6 +292,8 @@
 52.216.112.205  s3.amazonaws.com
 52.216.114.205  s3.amazonaws.com
 52.216.114.69   s3.amazonaws.com
+52.216.128.53   s3.amazonaws.com
+52.216.130.245  s3.amazonaws.com
 52.216.137.190  s3.amazonaws.com
 52.216.139.101  s3.amazonaws.com
 52.216.139.237  s3.amazonaws.com
@@ -329,7 +330,6 @@
 52.217.1.102    s3.amazonaws.com
 54.231.120.194  s3.amazonaws.com
 52.219.0.112    s3-ap-northeast-1.amazonaws.com
-52.219.0.12     s3-ap-northeast-1.amazonaws.com
 52.219.0.146    s3-ap-northeast-1.amazonaws.com
 52.219.0.150    s3-ap-northeast-1.amazonaws.com
 52.219.0.170    s3-ap-northeast-1.amazonaws.com
@@ -342,7 +342,6 @@
 52.219.4.142    s3-ap-northeast-1.amazonaws.com
 52.219.4.28     s3-ap-northeast-1.amazonaws.com
 52.219.4.8      s3-ap-northeast-1.amazonaws.com
-52.219.68.124   s3-ap-northeast-1.amazonaws.com
 52.219.68.150   s3-ap-northeast-1.amazonaws.com
 52.219.68.154   s3-ap-northeast-1.amazonaws.com
 52.219.68.158   s3-ap-northeast-1.amazonaws.com
@@ -415,7 +414,6 @@
 52.95.132.79    s3-ap-southeast-2.amazonaws.com
 52.95.132.91    s3-ap-southeast-2.amazonaws.com
 52.95.133.100   s3-ap-southeast-2.amazonaws.com
-52.95.133.115   s3-ap-southeast-2.amazonaws.com
 52.95.133.123   s3-ap-southeast-2.amazonaws.com
 52.95.133.127   s3-ap-southeast-2.amazonaws.com
 52.95.133.131   s3-ap-southeast-2.amazonaws.com
@@ -691,7 +689,6 @@
 54.231.185.20   s3-us-west-2.amazonaws.com
 52.216.1.208    github-cloud.s3.amazonaws.com
 52.216.102.11   github-cloud.s3.amazonaws.com
-52.216.102.67   github-cloud.s3.amazonaws.com
 52.216.107.140  github-cloud.s3.amazonaws.com
 52.216.107.148  github-cloud.s3.amazonaws.com
 52.216.108.219  github-cloud.s3.amazonaws.com
@@ -1650,7 +1647,6 @@
 151.101.110.114 img.buzzfeed.com
 151.101.130.114 img.buzzfeed.com
 151.101.194.114 img.buzzfeed.com
-151.101.2.114   img.buzzfeed.com
 151.101.66.114  img.buzzfeed.com
 157.240.18.63   scontent.cdninstagram.com
 157.240.193.63  scontent.cdninstagram.com
@@ -2469,7 +2465,6 @@
 13.225.224.46   marketing.dropbox.com
 13.226.15.36    marketing.dropbox.com
 13.226.15.49    marketing.dropbox.com
-13.226.15.80    marketing.dropbox.com
 13.226.15.99    marketing.dropbox.com
 13.249.134.13   marketing.dropbox.com
 13.249.134.52   marketing.dropbox.com
@@ -2888,6 +2883,7 @@
 52.222.255.213  www.dwnews.com
 52.222.255.71   www.dwnews.com
 52.222.255.81   www.dwnews.com
+52.84.251.19    www.dwnews.com
 52.84.251.4     www.dwnews.com
 52.84.251.70    www.dwnews.com
 52.84.251.97    www.dwnews.com
@@ -3283,6 +3279,7 @@
 52.84.134.91    download-cdn.getsync.com
 52.84.251.101   download-cdn.getsync.com
 52.84.251.111   download-cdn.getsync.com
+52.84.251.19    download-cdn.getsync.com
 52.84.251.86    download-cdn.getsync.com
 52.84.64.125    download-cdn.getsync.com
 52.84.64.222    download-cdn.getsync.com
@@ -9642,7 +9639,6 @@
 23.215.104.105  ecmimages.kobobooks.com
 23.215.104.66   ecmimages.kobobooks.com
 23.4.240.59     ecmimages.kobobooks.com
-23.4.240.82     ecmimages.kobobooks.com
 23.48.94.115    ecmimages.kobobooks.com
 23.48.94.171    ecmimages.kobobooks.com
 23.50.52.195    ecmimages.kobobooks.com
@@ -9873,7 +9869,6 @@
 157.55.109.228  skyapi.onedrive.live.com
 157.55.109.230  skyapi.onedrive.live.com
 157.55.109.232  skyapi.onedrive.live.com
-40.77.224.11    skyapi.onedrive.live.com
 40.77.224.8     skyapi.onedrive.live.com
 40.90.136.1     skyapi.onedrive.live.com
 40.90.136.166   skyapi.onedrive.live.com
@@ -9883,12 +9878,11 @@
 40.90.142.226   skyapi.onedrive.live.com
 13.107.42.11    outlook.live.com
 64.74.18.113    secure.logmein.com
-64.74.18.224    secure.logmein.com
+64.74.18.137    secure.logmein.com
 64.94.46.193    secure.logmein.com
 64.95.128.149   secure.logmein.com
 67.217.80.125   secure.logmein.com
 216.239.32.21   madewithcode.com
-216.239.34.21   madewithcode.com
 108.177.111.121 www.madewithcode.com
 108.177.112.121 www.madewithcode.com
 108.177.120.121 www.madewithcode.com
@@ -9974,7 +9968,6 @@
 216.239.32.21   220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
 216.239.34.21   220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
 216.239.32.21   3cf08074951d6dc0092cd80f2af9aa50.baas.nintendo.com
-216.239.34.21   3cf08074951d6dc0092cd80f2af9aa50.baas.nintendo.com
 151.101.193.164 a1.nyt.com
 151.101.229.164 a1.nyt.com
 151.101.65.164  a1.nyt.com
@@ -10233,7 +10226,6 @@
 104.18.14.176   i.pinimg.com
 104.18.15.176   i.pinimg.com
 104.76.17.41    i.pinimg.com
-151.101.184.84  i.pinimg.com
 151.101.228.84  i.pinimg.com
 151.101.76.84   i.pinimg.com
 184.26.153.6    i.pinimg.com
@@ -10246,7 +10238,6 @@
 23.63.196.125   i.pinimg.com
 23.79.193.227   i.pinimg.com
 104.124.9.39    s.pinimg.com
-151.101.184.84  s.pinimg.com
 151.101.228.84  s.pinimg.com
 184.26.153.6    s.pinimg.com
 184.26.61.54    s.pinimg.com
@@ -10265,7 +10256,6 @@
 104.124.9.39    s-media-cache-ak0.pinimg.com
 104.18.14.176   s-media-cache-ak0.pinimg.com
 104.18.15.176   s-media-cache-ak0.pinimg.com
-151.101.184.84  s-media-cache-ak0.pinimg.com
 151.101.228.84  s-media-cache-ak0.pinimg.com
 151.101.76.84   s-media-cache-ak0.pinimg.com
 184.26.153.6    s-media-cache-ak0.pinimg.com
@@ -10283,7 +10273,6 @@
 104.124.9.39    v.pinimg.com
 104.76.17.41    v.pinimg.com
 104.78.25.29    v.pinimg.com
-151.101.184.84  v.pinimg.com
 184.26.153.6    v.pinimg.com
 184.26.61.54    v.pinimg.com
 23.10.6.40      v.pinimg.com
@@ -10514,7 +10503,6 @@
 23.45.144.220   no.pinterest.com
 23.45.188.221   no.pinterest.com
 104.124.9.39    passets-cdn.pinterest.com
-151.101.184.84  passets-cdn.pinterest.com
 151.101.228.84  passets-cdn.pinterest.com
 184.26.153.6    passets-cdn.pinterest.com
 199.232.4.84    passets-cdn.pinterest.com
@@ -12930,7 +12918,6 @@
 117.18.237.70   ma.twimg.com
 192.229.173.16  ma.twimg.com
 72.21.91.70     ma.twimg.com
-151.101.108.159 p.twimg.com
 151.101.184.159 p.twimg.com
 151.101.228.159 p.twimg.com
 151.101.76.159  p.twimg.com
@@ -13039,17 +13026,14 @@
 169.46.12.79    single.upsight-api.com
 104.27.154.107  www.v2ray.com
 104.27.155.107  www.v2ray.com
-151.101.0.217   api.vimeo.com
 151.101.128.217 api.vimeo.com
 151.101.192.217 api.vimeo.com
 151.101.64.217  api.vimeo.com
 198.245.92.39   click.email.vimeo.com
-151.101.0.217   player.vimeo.com
 151.101.108.217 player.vimeo.com
 151.101.128.217 player.vimeo.com
 151.101.192.217 player.vimeo.com
 151.101.64.217  player.vimeo.com
-151.101.0.217   www.vimeo.com
 151.101.128.217 www.vimeo.com
 151.101.192.217 www.vimeo.com
 151.101.64.217  www.vimeo.com
@@ -13112,7 +13096,6 @@
 66.29.212.110   w3schools.com
 192.229.173.207 www.w3schools.com
 192.229.179.87  www.w3schools.com
-68.232.44.41    cloud.webtype.com
 72.21.91.41     cloud.webtype.com
 184.173.147.38  whatsapp.com
 184.173.147.39  whatsapp.com
@@ -13880,7 +13863,6 @@
 108.177.111.94  google.gm
 108.177.111.94  www.google.gm
 216.239.32.21   blog.google
-216.239.34.21   blog.google
 108.177.111.121 www.blog.google
 108.177.112.121 www.blog.google
 108.177.120.121 www.blog.google
@@ -13913,7 +13895,6 @@
 108.177.111.138 www.domains.google
 108.177.111.139 www.domains.google
 216.239.32.21   environment.google
-216.239.34.21   environment.google
 108.177.111.100 www.registry.google
 108.177.111.101 www.registry.google
 108.177.111.102 www.registry.google
@@ -14174,7 +14155,6 @@
 74.125.69.121   code.getmdl.io
 74.125.70.121   code.getmdl.io
 216.239.32.21   material.io
-216.239.34.21   material.io
 108.177.111.103 google.com.iq
 108.177.111.104 google.com.iq
 108.177.111.105 google.com.iq
@@ -14628,7 +14608,6 @@
 183.79.250.251  search.yahoo.co.jp
 150.95.236.68   cp.conoha.jp
 157.7.225.122   cp.conoha.jp
-150.95.236.31   manage.conoha.jp
 150.95.236.28   www.conoha.jp
 108.177.111.121 www.gosetsuden.jp
 108.177.112.121 www.gosetsuden.jp
@@ -15057,6 +15036,7 @@
 172.217.160.0   www.google.com.na
 108.177.111.94  google.ne
 108.177.111.94  www.google.ne
+172.217.24.10   tsa01s07-in-f10.1e100.net
 108.177.111.100 redirector.c.2mdn.net
 108.177.111.101 redirector.c.2mdn.net
 108.177.111.102 redirector.c.2mdn.net
@@ -15545,7 +15525,6 @@
 23.4.240.81     fb-l-b-a.akamaihd.net
 23.4.240.83     fb-l-b-a.akamaihd.net
 23.4.240.88     fb-l-b-a.akamaihd.net
-23.4.240.9      fb-l-b-a.akamaihd.net
 23.48.94.112    fb-l-b-a.akamaihd.net
 23.48.94.122    fb-l-b-a.akamaihd.net
 23.48.94.123    fb-l-b-a.akamaihd.net
@@ -15757,7 +15736,6 @@
 23.4.240.81     fb-l-c-a.akamaihd.net
 23.4.240.83     fb-l-c-a.akamaihd.net
 23.48.201.56    fb-l-c-a.akamaihd.net
-23.48.201.57    fb-l-c-a.akamaihd.net
 23.48.201.59    fb-l-c-a.akamaihd.net
 23.48.201.65    fb-l-c-a.akamaihd.net
 23.48.201.72    fb-l-c-a.akamaihd.net
@@ -16218,7 +16196,6 @@
 96.7.54.64      fb-s-a-a.akamaihd.net
 96.7.54.65      fb-s-a-a.akamaihd.net
 96.7.54.67      fb-s-a-a.akamaihd.net
-96.7.54.72      fb-s-a-a.akamaihd.net
 96.7.54.73      fb-s-a-a.akamaihd.net
 96.7.54.74      fb-s-a-a.akamaihd.net
 96.7.54.80      fb-s-a-a.akamaihd.net
@@ -16366,7 +16343,6 @@
 23.32.241.3     fb-s-b-a.akamaihd.net
 23.32.241.9     fb-s-b-a.akamaihd.net
 23.48.201.56    fb-s-b-a.akamaihd.net
-23.48.201.57    fb-s-b-a.akamaihd.net
 23.48.201.59    fb-s-b-a.akamaihd.net
 23.48.201.65    fb-s-b-a.akamaihd.net
 23.48.201.72    fb-s-b-a.akamaihd.net
@@ -22883,7 +22859,6 @@
 13.225.224.32   a.deviantart.net
 13.226.15.60    a.deviantart.net
 13.226.15.67    a.deviantart.net
-13.226.15.80    a.deviantart.net
 13.226.15.91    a.deviantart.net
 13.249.134.14   a.deviantart.net
 13.249.134.32   a.deviantart.net
@@ -24151,6 +24126,7 @@
 31.13.86.35     ent-a.xx.fbcdn.net
 31.13.90.35     ent-a.xx.fbcdn.net
 102.132.96.33   ent-c.xx.fbcdn.net
+157.240.15.34   ent-c.xx.fbcdn.net
 157.240.16.34   ent-c.xx.fbcdn.net
 157.240.18.34   ent-c.xx.fbcdn.net
 157.240.19.34   ent-c.xx.fbcdn.net
@@ -24351,6 +24327,7 @@
 157.240.1.34    scontent-lax3-4.xx.fbcdn.net
 157.240.13.34   scontent-lax3-4.xx.fbcdn.net
 157.240.14.34   scontent-lax3-4.xx.fbcdn.net
+157.240.15.34   scontent-lax3-4.xx.fbcdn.net
 157.240.19.34   scontent-lax3-4.xx.fbcdn.net
 157.240.193.38  scontent-lax3-4.xx.fbcdn.net
 157.240.195.38  scontent-lax3-4.xx.fbcdn.net
@@ -24434,6 +24411,7 @@
 102.132.96.33   video-lax3-4.xx.fbcdn.net
 157.240.11.34   video-lax3-4.xx.fbcdn.net
 157.240.12.34   video-lax3-4.xx.fbcdn.net
+157.240.15.34   video-lax3-4.xx.fbcdn.net
 157.240.19.34   video-lax3-4.xx.fbcdn.net
 157.240.192.38  video-lax3-4.xx.fbcdn.net
 157.240.193.38  video-lax3-4.xx.fbcdn.net
@@ -24476,6 +24454,7 @@
 102.132.97.33   video-mrs1-2.xx.fbcdn.net
 157.240.10.34   video-mrs1-2.xx.fbcdn.net
 157.240.12.34   video-mrs1-2.xx.fbcdn.net
+157.240.15.34   video-mrs1-2.xx.fbcdn.net
 157.240.16.34   video-mrs1-2.xx.fbcdn.net
 157.240.18.34   video-mrs1-2.xx.fbcdn.net
 157.240.19.34   video-mrs1-2.xx.fbcdn.net
@@ -25579,7 +25558,6 @@
 162.249.111.210 biweeklyarchive.hrichina.org
 162.249.111.210 www.hrichina.org
 216.239.32.21   polymer-project.org
-216.239.34.21   polymer-project.org
 108.177.111.121 www.polymer-project.org
 108.177.112.121 www.polymer-project.org
 108.177.120.121 www.polymer-project.org
@@ -26222,7 +26200,6 @@
 52.88.116.16    proxsee.pscp.tv
 52.88.235.27    proxsee.pscp.tv
 54.149.33.159   proxsee.pscp.tv
-54.186.240.37   proxsee.pscp.tv
 54.187.197.104  proxsee.pscp.tv
 54.187.200.106  proxsee.pscp.tv
 54.200.114.148  proxsee.pscp.tv
@@ -26514,7 +26491,6 @@
 34.223.205.237  spade.sci.twitch.tv
 34.223.240.178  spade.sci.twitch.tv
 35.161.182.231  spade.sci.twitch.tv
-35.162.84.239   spade.sci.twitch.tv
 35.163.32.174   spade.sci.twitch.tv
 35.164.92.134   spade.sci.twitch.tv
 35.165.58.36    spade.sci.twitch.tv
@@ -26580,7 +26556,6 @@
 34.223.240.178  spade.twitch.tv
 35.161.182.231  spade.twitch.tv
 35.161.26.223   spade.twitch.tv
-35.162.84.239   spade.twitch.tv
 35.163.32.174   spade.twitch.tv
 35.164.92.134   spade.twitch.tv
 35.165.58.36    spade.twitch.tv
