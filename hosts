@@ -243,7 +243,6 @@
 209.85.145.121  www.agoogleaday.com
 209.85.200.121  www.agoogleaday.com
 209.85.234.121  www.agoogleaday.com
-216.239.38.21   www.agoogleaday.com
 216.58.197.243  www.agoogleaday.com
 216.58.200.51   www.agoogleaday.com
 74.125.126.121  www.agoogleaday.com
@@ -273,6 +272,7 @@
 54.240.226.142  ap-southeast-1.console.aws.amazon.com
 54.240.226.19   ap-southeast-1.console.aws.amazon.com
 54.240.226.81   ap-southeast-1.console.aws.amazon.com
+52.119.210.255  ap-southeast-2.console.aws.amazon.com
 52.119.210.50   ap-southeast-2.console.aws.amazon.com
 52.119.211.114  ap-southeast-2.console.aws.amazon.com
 54.239.54.102   eu-central-1.console.aws.amazon.com
@@ -349,7 +349,7 @@
 52.219.0.170    s3-ap-northeast-1.amazonaws.com
 52.219.0.174    s3-ap-northeast-1.amazonaws.com
 52.219.0.178    s3-ap-northeast-1.amazonaws.com
-52.219.0.92     s3-ap-northeast-1.amazonaws.com
+52.219.0.84     s3-ap-northeast-1.amazonaws.com
 52.219.4.0      s3-ap-northeast-1.amazonaws.com
 52.219.4.134    s3-ap-northeast-1.amazonaws.com
 52.219.4.138    s3-ap-northeast-1.amazonaws.com
@@ -357,7 +357,6 @@
 52.219.4.24     s3-ap-northeast-1.amazonaws.com
 52.219.4.28     s3-ap-northeast-1.amazonaws.com
 52.219.4.8      s3-ap-northeast-1.amazonaws.com
-52.219.68.100   s3-ap-northeast-1.amazonaws.com
 52.219.68.150   s3-ap-northeast-1.amazonaws.com
 52.219.68.154   s3-ap-northeast-1.amazonaws.com
 52.219.68.158   s3-ap-northeast-1.amazonaws.com
@@ -423,15 +422,18 @@
 52.219.40.73    s3-ap-southeast-1.amazonaws.com
 52.219.40.89    s3-ap-southeast-1.amazonaws.com
 52.95.131.21    s3-ap-southeast-2.amazonaws.com
+52.95.132.1     s3-ap-southeast-2.amazonaws.com
 52.95.132.103   s3-ap-southeast-2.amazonaws.com
 52.95.132.119   s3-ap-southeast-2.amazonaws.com
 52.95.132.131   s3-ap-southeast-2.amazonaws.com
+52.95.132.135   s3-ap-southeast-2.amazonaws.com
 52.95.132.143   s3-ap-southeast-2.amazonaws.com
 52.95.132.147   s3-ap-southeast-2.amazonaws.com
 52.95.132.151   s3-ap-southeast-2.amazonaws.com
 52.95.132.37    s3-ap-southeast-2.amazonaws.com
 52.95.132.45    s3-ap-southeast-2.amazonaws.com
 52.95.132.5     s3-ap-southeast-2.amazonaws.com
+52.95.132.60    s3-ap-southeast-2.amazonaws.com
 52.95.132.75    s3-ap-southeast-2.amazonaws.com
 52.95.132.79    s3-ap-southeast-2.amazonaws.com
 52.95.132.91    s3-ap-southeast-2.amazonaws.com
@@ -439,24 +441,25 @@
 52.95.133.115   s3-ap-southeast-2.amazonaws.com
 52.95.133.123   s3-ap-southeast-2.amazonaws.com
 52.95.133.127   s3-ap-southeast-2.amazonaws.com
+52.95.133.131   s3-ap-southeast-2.amazonaws.com
 52.95.133.139   s3-ap-southeast-2.amazonaws.com
 52.95.133.147   s3-ap-southeast-2.amazonaws.com
 52.95.133.151   s3-ap-southeast-2.amazonaws.com
 52.95.133.159   s3-ap-southeast-2.amazonaws.com
 52.95.133.175   s3-ap-southeast-2.amazonaws.com
 52.95.133.41    s3-ap-southeast-2.amazonaws.com
-52.95.133.5     s3-ap-southeast-2.amazonaws.com
 52.95.133.79    s3-ap-southeast-2.amazonaws.com
+52.95.133.87    s3-ap-southeast-2.amazonaws.com
 52.95.133.9     s3-ap-southeast-2.amazonaws.com
 52.95.133.95    s3-ap-southeast-2.amazonaws.com
 52.95.134.103   s3-ap-southeast-2.amazonaws.com
 52.95.134.19    s3-ap-southeast-2.amazonaws.com
 52.95.134.23    s3-ap-southeast-2.amazonaws.com
 52.95.134.27    s3-ap-southeast-2.amazonaws.com
-52.95.134.31    s3-ap-southeast-2.amazonaws.com
 52.95.134.35    s3-ap-southeast-2.amazonaws.com
 52.95.134.47    s3-ap-southeast-2.amazonaws.com
 52.95.134.51    s3-ap-southeast-2.amazonaws.com
+52.95.134.59    s3-ap-southeast-2.amazonaws.com
 52.95.134.63    s3-ap-southeast-2.amazonaws.com
 52.95.134.67    s3-ap-southeast-2.amazonaws.com
 52.95.134.71    s3-ap-southeast-2.amazonaws.com
@@ -477,6 +480,7 @@
 52.219.72.20    s3-eu-central-1.amazonaws.com
 52.219.72.4     s3-eu-central-1.amazonaws.com
 52.219.72.56    s3-eu-central-1.amazonaws.com
+52.219.72.60    s3-eu-central-1.amazonaws.com
 52.219.72.68    s3-eu-central-1.amazonaws.com
 52.219.72.72    s3-eu-central-1.amazonaws.com
 52.219.72.8     s3-eu-central-1.amazonaws.com
@@ -617,6 +621,7 @@
 52.95.165.26    s3-sa-east-1.amazonaws.com
 52.95.165.30    s3-sa-east-1.amazonaws.com
 52.95.165.35    s3-sa-east-1.amazonaws.com
+52.95.165.43    s3-sa-east-1.amazonaws.com
 52.95.165.50    s3-sa-east-1.amazonaws.com
 52.95.165.58    s3-sa-east-1.amazonaws.com
 52.95.165.62    s3-sa-east-1.amazonaws.com
@@ -1264,7 +1269,6 @@
 13.224.2.32     agi.armorgames.com
 13.224.2.7      agi.armorgames.com
 13.224.2.78     agi.armorgames.com
-13.224.2.8      agi.armorgames.com
 13.226.15.15    agi.armorgames.com
 13.226.15.63    agi.armorgames.com
 13.226.15.66    agi.armorgames.com
@@ -1480,7 +1484,6 @@
 173.194.74.121  www.autodraw.com
 209.85.200.121  www.autodraw.com
 209.85.234.121  www.autodraw.com
-216.239.38.21   www.autodraw.com
 216.58.200.51   www.autodraw.com
 64.233.191.121  www.autodraw.com
 74.125.124.121  www.autodraw.com
@@ -1814,7 +1817,6 @@
 99.84.181.75    cdn-images.bundlestars.com
 99.84.254.120   cdn-images.bundlestars.com
 99.84.254.13    cdn-images.bundlestars.com
-99.84.254.58    cdn-images.bundlestars.com
 99.84.254.95    cdn-images.bundlestars.com
 99.86.58.35     cdn-images.bundlestars.com
 99.86.58.70     cdn-images.bundlestars.com
@@ -1847,6 +1849,7 @@
 185.60.216.174  scontent-a-frx.cdninstagram.com
 157.240.12.52   scontent-a-gru.cdninstagram.com
 157.240.222.63  scontent-a-gru.cdninstagram.com
+31.13.95.172    scontent-a-hkg.cdninstagram.com
 31.13.66.63     scontent-a-iad.cdninstagram.com
 31.13.68.174    scontent-a-icn.cdninstagram.com
 157.240.10.52   scontent-a-kut.cdninstagram.com
@@ -1890,6 +1893,7 @@
 31.13.92.51     scontent-b-frt.cdninstagram.com
 185.60.216.174  scontent-b-frx.cdninstagram.com
 157.240.12.52   scontent-b-gru.cdninstagram.com
+31.13.95.172    scontent-b-hkg.cdninstagram.com
 31.13.66.63     scontent-b-iad.cdninstagram.com
 157.240.10.52   scontent-b-kut.cdninstagram.com
 179.60.194.63   scontent-b-kut.cdninstagram.com
@@ -1927,7 +1931,6 @@
 157.240.12.172  scontent-gru2-2.cdninstagram.com
 157.240.12.52   scontent-gru2-2.cdninstagram.com
 31.13.95.174    scontent-hkg3-1.cdninstagram.com
-157.240.15.172  scontent-hkg3-2.cdninstagram.com
 31.13.66.63     scontent-iad.cdninstagram.com
 31.13.66.63     scontent-iad3-1.cdninstagram.com
 31.13.68.174    scontent-icn1-1.cdninstagram.com
@@ -1973,7 +1976,6 @@
 173.194.197.121 chromeexperiments.com
 173.194.198.121 chromeexperiments.com
 209.85.200.121  chromeexperiments.com
-216.239.38.21   chromeexperiments.com
 216.58.200.243  chromeexperiments.com
 216.58.200.51   chromeexperiments.com
 64.233.191.121  chromeexperiments.com
@@ -1996,7 +1998,6 @@
 173.194.197.121 globe.chromeexperiments.com
 173.194.198.121 globe.chromeexperiments.com
 209.85.200.121  globe.chromeexperiments.com
-216.239.38.21   globe.chromeexperiments.com
 216.58.200.243  globe.chromeexperiments.com
 216.58.200.51   globe.chromeexperiments.com
 64.233.182.121  globe.chromeexperiments.com
@@ -2021,7 +2022,6 @@
 173.194.197.121 vr.chromeexperiments.com
 173.194.198.121 vr.chromeexperiments.com
 209.85.200.121  vr.chromeexperiments.com
-216.239.38.21   vr.chromeexperiments.com
 216.58.200.51   vr.chromeexperiments.com
 64.233.182.121  vr.chromeexperiments.com
 64.233.191.121  vr.chromeexperiments.com
@@ -2045,7 +2045,6 @@
 173.194.197.121 workshop.chromeexperiments.com
 173.194.198.121 workshop.chromeexperiments.com
 209.85.200.121  workshop.chromeexperiments.com
-216.239.38.21   workshop.chromeexperiments.com
 216.58.200.51   workshop.chromeexperiments.com
 64.233.182.121  workshop.chromeexperiments.com
 64.233.191.121  workshop.chromeexperiments.com
@@ -2067,7 +2066,6 @@
 173.194.197.121 www.chromeexperiments.com
 173.194.198.121 www.chromeexperiments.com
 209.85.200.121  www.chromeexperiments.com
-216.239.38.21   www.chromeexperiments.com
 216.58.200.243  www.chromeexperiments.com
 216.58.200.51   www.chromeexperiments.com
 64.233.182.121  www.chromeexperiments.com
@@ -2117,7 +2115,6 @@
 173.194.74.121  www.creativelab5.com
 209.85.200.121  www.creativelab5.com
 209.85.234.121  www.creativelab5.com
-216.239.38.21   www.creativelab5.com
 216.58.200.51   www.creativelab5.com
 64.233.182.121  www.creativelab5.com
 64.233.191.121  www.creativelab5.com
@@ -2388,7 +2385,6 @@
 151.101.24.134  dropbox.disqus.com
 151.101.248.134 dropbox.disqus.com
 151.101.40.134  dropbox.disqus.com
-151.101.120.134 help.disqus.com
 151.101.184.134 help.disqus.com
 151.101.188.134 help.disqus.com
 151.101.196.134 help.disqus.com
@@ -3134,6 +3130,7 @@
 13.249.134.3    news.dwnews.com
 13.249.134.65   news.dwnews.com
 13.249.134.69   news.dwnews.com
+13.249.134.98   news.dwnews.com
 13.249.87.100   news.dwnews.com
 13.249.87.3     news.dwnews.com
 13.249.87.71    news.dwnews.com
@@ -3364,7 +3361,6 @@
 34.201.79.186   secure.flickr.com
 34.233.28.18    secure.flickr.com
 52.202.5.81     secure.flickr.com
-52.4.224.6      secure.flickr.com
 52.55.135.251   secure.flickr.com
 52.72.253.94    secure.flickr.com
 54.85.218.10    secure.flickr.com
@@ -3433,6 +3429,7 @@
 13.249.95.10    beacon.flipboard.com
 13.33.143.13    beacon.flipboard.com
 13.33.208.8     beacon.flipboard.com
+52.84.136.221   beacon.flipboard.com
 52.84.254.47    beacon.flipboard.com
 52.84.60.24     beacon.flipboard.com
 99.84.103.10    beacon.flipboard.com
@@ -3659,7 +3656,6 @@
 99.84.168.34    download-cdn.getsync.com
 99.84.168.49    download-cdn.getsync.com
 99.84.168.87    download-cdn.getsync.com
-99.84.254.117   download-cdn.getsync.com
 99.84.254.21    download-cdn.getsync.com
 99.84.254.28    download-cdn.getsync.com
 99.84.254.83    download-cdn.getsync.com
@@ -3817,7 +3813,6 @@
 176.32.103.89   ads.goodreads.com
 205.251.242.64  ads.goodreads.com
 52.94.226.87    www.goodreads.com
-52.94.237.126   www.goodreads.com
 54.239.26.220   www.goodreads.com
 108.177.111.100 google.com
 108.177.111.101 google.com
@@ -4830,7 +4825,6 @@
 173.194.197.121 goto.ext.google.com
 173.194.198.121 goto.ext.google.com
 209.85.200.121  goto.ext.google.com
-216.239.38.21   goto.ext.google.com
 216.58.200.243  goto.ext.google.com
 216.58.200.51   goto.ext.google.com
 64.233.182.121  goto.ext.google.com
@@ -4943,7 +4937,6 @@
 173.194.197.121 ghs.google.com
 173.194.198.121 ghs.google.com
 209.85.200.121  ghs.google.com
-216.239.38.21   ghs.google.com
 216.58.200.51   ghs.google.com
 64.233.182.121  ghs.google.com
 64.233.191.121  ghs.google.com
@@ -4968,7 +4961,6 @@
 209.85.145.121  ghs46.google.com
 209.85.200.121  ghs46.google.com
 209.85.234.121  ghs46.google.com
-216.239.38.21   ghs46.google.com
 64.233.181.121  ghs46.google.com
 74.125.124.121  ghs46.google.com
 74.125.126.121  ghs46.google.com
@@ -5359,7 +5351,6 @@
 209.85.145.121  ghs.l.google.com
 209.85.200.121  ghs.l.google.com
 209.85.234.121  ghs.l.google.com
-216.239.38.21   ghs.l.google.com
 216.58.197.243  ghs.l.google.com
 216.58.200.51   ghs.l.google.com
 74.125.126.121  ghs.l.google.com
@@ -5378,7 +5369,6 @@
 173.194.195.121 ghs46.l.google.com
 209.85.145.121  ghs46.l.google.com
 209.85.234.121  ghs46.l.google.com
-216.239.38.21   ghs46.l.google.com
 216.58.200.243  ghs46.l.google.com
 216.58.200.51   ghs46.l.google.com
 64.233.181.121  ghs46.l.google.com
@@ -6860,7 +6850,6 @@
 172.217.27.144  commondatastorage.googleapis.com
 173.194.192.128 commondatastorage.googleapis.com
 173.194.193.128 commondatastorage.googleapis.com
-209.85.147.128  commondatastorage.googleapis.com
 209.85.200.128  commondatastorage.googleapis.com
 209.85.234.128  commondatastorage.googleapis.com
 216.58.197.144  commondatastorage.googleapis.com
@@ -6944,7 +6933,6 @@
 173.194.198.128 content-storage-upload.googleapis.com
 173.194.74.128  content-storage-upload.googleapis.com
 209.85.145.128  content-storage-upload.googleapis.com
-209.85.147.128  content-storage-upload.googleapis.com
 209.85.200.128  content-storage-upload.googleapis.com
 209.85.234.128  content-storage-upload.googleapis.com
 64.233.181.128  content-storage-upload.googleapis.com
@@ -7277,7 +7265,6 @@
 209.85.145.121  ghs-svc-https-sni.ghs-ssl.googlehosted.com
 209.85.200.121  ghs-svc-https-sni.ghs-ssl.googlehosted.com
 209.85.234.121  ghs-svc-https-sni.ghs-ssl.googlehosted.com
-216.239.38.21   ghs-svc-https-sni.ghs-ssl.googlehosted.com
 64.233.191.121  ghs-svc-https-sni.ghs-ssl.googlehosted.com
 74.125.124.121  ghs-svc-https-sni.ghs-ssl.googlehosted.com
 74.125.129.121  ghs-svc-https-sni.ghs-ssl.googlehosted.com
@@ -7323,7 +7310,6 @@
 173.194.74.121  gsamplemaps.googlepages.com
 209.85.145.121  gsamplemaps.googlepages.com
 209.85.234.121  gsamplemaps.googlepages.com
-216.239.38.21   gsamplemaps.googlepages.com
 64.233.182.121  gsamplemaps.googlepages.com
 74.125.124.121  gsamplemaps.googlepages.com
 74.125.126.121  gsamplemaps.googlepages.com
@@ -8990,7 +8976,6 @@
 173.194.197.121 www.googlezeitgeist.com
 173.194.198.121 www.googlezeitgeist.com
 209.85.200.121  www.googlezeitgeist.com
-216.239.38.21   www.googlezeitgeist.com
 216.58.200.51   www.googlezeitgeist.com
 64.233.181.121  www.googlezeitgeist.com
 64.233.191.121  www.googlezeitgeist.com
@@ -9231,7 +9216,6 @@
 54.215.136.41   flipboard.helpshift.com
 54.215.162.192  flipboard.helpshift.com
 54.215.171.186  flipboard.helpshift.com
-54.215.174.122  flipboard.helpshift.com
 54.215.199.132  flipboard.helpshift.com
 54.215.201.73   flipboard.helpshift.com
 54.215.201.94   flipboard.helpshift.com
@@ -9265,6 +9249,7 @@
 35.169.197.62   id.heroku.com
 118.143.30.175  plus.hket.com
 118.143.30.220  static01.hket.com
+118.143.30.216  topick.hket.com
 104.25.119.37   www.hkgalden.com
 104.25.120.37   www.hkgalden.com
 104.22.12.39    classbm.hkgolden.com
@@ -9302,7 +9287,6 @@
 173.194.197.121 playground.html5rocks.com
 173.194.198.121 playground.html5rocks.com
 209.85.200.121  playground.html5rocks.com
-216.239.38.21   playground.html5rocks.com
 216.58.200.51   playground.html5rocks.com
 64.233.182.121  playground.html5rocks.com
 64.233.191.121  playground.html5rocks.com
@@ -9326,7 +9310,6 @@
 173.194.197.121 slides.html5rocks.com
 173.194.198.121 slides.html5rocks.com
 209.85.200.121  slides.html5rocks.com
-216.239.38.21   slides.html5rocks.com
 216.58.200.51   slides.html5rocks.com
 64.233.182.121  slides.html5rocks.com
 64.233.191.121  slides.html5rocks.com
@@ -9351,7 +9334,6 @@
 173.194.197.121 studio.html5rocks.com
 173.194.198.121 studio.html5rocks.com
 209.85.200.121  studio.html5rocks.com
-216.239.38.21   studio.html5rocks.com
 216.58.200.51   studio.html5rocks.com
 64.233.182.121  studio.html5rocks.com
 64.233.191.121  studio.html5rocks.com
@@ -9375,7 +9357,6 @@
 173.194.197.121 www.html5rocks.com
 173.194.198.121 www.html5rocks.com
 209.85.200.121  www.html5rocks.com
-216.239.38.21   www.html5rocks.com
 216.58.200.243  www.html5rocks.com
 216.58.200.51   www.html5rocks.com
 64.233.182.121  www.html5rocks.com
@@ -9737,6 +9718,7 @@
 34.236.208.213  issuu.com
 52.72.26.162    issuu.com
 52.86.178.201   issuu.com
+52.87.46.163    issuu.com
 54.164.180.177  issuu.com
 54.165.227.22   issuu.com
 54.166.14.5     issuu.com
@@ -9753,6 +9735,7 @@
 34.236.208.213  developers.issuu.com
 52.72.26.162    developers.issuu.com
 52.86.178.201   developers.issuu.com
+52.87.46.163    developers.issuu.com
 54.164.180.177  developers.issuu.com
 54.165.227.22   developers.issuu.com
 54.166.14.5     developers.issuu.com
@@ -9780,6 +9763,7 @@
 34.236.208.213  page.issuu.com
 52.72.26.162    page.issuu.com
 52.86.178.201   page.issuu.com
+52.87.46.163    page.issuu.com
 54.164.180.177  page.issuu.com
 54.165.227.22   page.issuu.com
 54.166.14.5     page.issuu.com
@@ -9810,6 +9794,7 @@
 34.236.208.213  www.issuu.com
 52.72.26.162    www.issuu.com
 52.86.178.201   www.issuu.com
+52.87.46.163    www.issuu.com
 54.164.180.177  www.issuu.com
 54.165.227.22   www.issuu.com
 54.166.14.5     www.issuu.com
@@ -9891,6 +9876,7 @@
 23.34.51.249    es.kobo.com
 23.34.75.34     es.kobo.com
 23.51.202.114   es.kobo.com
+72.246.223.249  es.kobo.com
 104.107.196.160 fr.kobo.com
 104.112.196.40  fr.kobo.com
 104.114.35.120  fr.kobo.com
@@ -10061,6 +10047,7 @@
 23.51.200.230   corporate.kobobooks.com
 23.227.38.64    de.kobobooks.com
 104.80.89.83    ecimages.kobobooks.com
+104.91.166.10   ecimages.kobobooks.com
 104.91.166.137  ecimages.kobobooks.com
 104.91.166.144  ecimages.kobobooks.com
 104.91.166.40   ecimages.kobobooks.com
@@ -10088,6 +10075,7 @@
 23.60.97.90     ecimages.kobobooks.com
 96.17.151.140   ecimages.kobobooks.com
 104.80.89.83    ecmimages.kobobooks.com
+104.91.166.10   ecmimages.kobobooks.com
 104.91.166.137  ecmimages.kobobooks.com
 104.91.166.144  ecmimages.kobobooks.com
 104.91.166.40   ecmimages.kobobooks.com
@@ -10366,6 +10354,7 @@
 157.55.109.232  skyapi.onedrive.live.com
 40.77.224.11    skyapi.onedrive.live.com
 40.77.224.8     skyapi.onedrive.live.com
+40.90.136.1     skyapi.onedrive.live.com
 40.90.136.163   skyapi.onedrive.live.com
 40.90.136.166   skyapi.onedrive.live.com
 40.90.136.19    skyapi.onedrive.live.com
@@ -10381,7 +10370,6 @@
 67.217.80.125   secure.logmein.com
 216.239.32.21   madewithcode.com
 216.239.34.21   madewithcode.com
-216.239.38.21   madewithcode.com
 108.177.111.121 www.madewithcode.com
 108.177.112.121 www.madewithcode.com
 108.177.120.121 www.madewithcode.com
@@ -10396,7 +10384,6 @@
 173.194.197.121 www.madewithcode.com
 173.194.198.121 www.madewithcode.com
 209.85.200.121  www.madewithcode.com
-216.239.38.21   www.madewithcode.com
 216.58.200.243  www.madewithcode.com
 216.58.200.51   www.madewithcode.com
 74.125.124.121  www.madewithcode.com
@@ -10438,6 +10425,7 @@
 157.240.193.18  0-edge-chat.messenger.com
 157.240.193.18  1-edge-chat.messenger.com
 157.240.193.18  2-edge-chat.messenger.com
+157.240.193.18  4-edge-chat.messenger.com
 157.240.193.18  5-edge-chat.messenger.com
 157.240.193.18  6-edge-chat.messenger.com
 157.240.193.18  www.messenger.com
@@ -10457,7 +10445,6 @@
 173.194.196.121 www.nianticlabs.com
 173.194.197.121 www.nianticlabs.com
 209.85.200.121  www.nianticlabs.com
-216.239.38.21   www.nianticlabs.com
 74.125.124.121  www.nianticlabs.com
 74.125.126.121  www.nianticlabs.com
 74.125.129.121  www.nianticlabs.com
@@ -10471,10 +10458,8 @@
 172.217.31.179  1d73367a8bc4b849f5286dc68416acfd.baas.nintendo.com
 216.239.32.21   220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
 216.239.34.21   220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
-216.239.38.21   220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
 216.239.32.21   3cf08074951d6dc0092cd80f2af9aa50.baas.nintendo.com
 216.239.34.21   3cf08074951d6dc0092cd80f2af9aa50.baas.nintendo.com
-216.239.38.21   3cf08074951d6dc0092cd80f2af9aa50.baas.nintendo.com
 151.101.193.164 a1.nyt.com
 151.101.229.164 a1.nyt.com
 151.101.65.164  a1.nyt.com
@@ -10525,7 +10510,6 @@
 74.125.70.121   a.nytimes.com
 3.220.9.32      messaging-sub.api.nytimes.com
 3.224.246.213   messaging-sub.api.nytimes.com
-52.7.198.201    messaging-sub.api.nytimes.com
 54.87.126.0     messaging-sub.api.nytimes.com
 13.225.224.119  cn.nytimes.com
 13.225.224.12   cn.nytimes.com
@@ -10569,7 +10553,6 @@
 99.84.168.113   cn.nytimes.com
 99.84.168.41    cn.nytimes.com
 99.84.168.6     cn.nytimes.com
-99.84.254.117   cn.nytimes.com
 99.84.254.31    cn.nytimes.com
 99.84.254.4     cn.nytimes.com
 99.84.254.53    cn.nytimes.com
@@ -11333,6 +11316,7 @@
 52.84.64.25     config.resilio.com
 52.84.64.79     config.resilio.com
 54.192.111.185  config.resilio.com
+54.192.75.46    config.resilio.com
 99.84.104.20    config.resilio.com
 99.84.104.23    config.resilio.com
 99.84.104.7     config.resilio.com
@@ -11595,6 +11579,7 @@
 13.249.134.112  ca.reuters.com
 13.249.134.16   ca.reuters.com
 13.249.134.69   ca.reuters.com
+13.249.134.98   ca.reuters.com
 13.249.87.120   ca.reuters.com
 13.249.87.33    ca.reuters.com
 13.249.87.45    ca.reuters.com
@@ -11742,6 +11727,7 @@
 52.84.251.15    de.reuters.com
 52.84.251.21    de.reuters.com
 52.84.251.59    de.reuters.com
+52.85.158.16    de.reuters.com
 54.230.35.114   de.reuters.com
 54.230.35.65    de.reuters.com
 54.230.35.82    de.reuters.com
@@ -12150,6 +12136,7 @@
 52.84.141.71    mx.reuters.com
 52.84.141.81    mx.reuters.com
 52.84.141.85    mx.reuters.com
+52.85.158.239   mx.reuters.com
 99.84.168.100   mx.reuters.com
 99.84.168.23    mx.reuters.com
 99.84.168.55    mx.reuters.com
@@ -12460,6 +12447,7 @@
 192.230.66.96   www.smartdnsproxy.com
 199.83.134.96   www.smartdnsproxy.com
 45.60.41.96     www.smartdnsproxy.com
+45.64.64.96     www.smartdnsproxy.com
 13.224.215.10   a1.sndcdn.com
 13.224.215.4    a1.sndcdn.com
 13.224.215.48   a1.sndcdn.com
@@ -12787,6 +12775,7 @@
 52.84.69.48     soundcloud.com
 52.84.69.70     soundcloud.com
 52.84.69.89     soundcloud.com
+68.232.44.127   soundcloud.com
 72.21.91.127    soundcloud.com
 99.84.163.39    soundcloud.com
 99.84.163.52    soundcloud.com
@@ -12974,6 +12963,7 @@
 52.84.69.58     api-v2.soundcloud.com
 52.84.69.75     api-v2.soundcloud.com
 52.85.0.103     api-v2.soundcloud.com
+68.232.44.127   api-v2.soundcloud.com
 99.84.163.42    api-v2.soundcloud.com
 99.84.163.48    api-v2.soundcloud.com
 99.84.163.49    api-v2.soundcloud.com
@@ -13132,6 +13122,7 @@
 99.86.59.48     l9bjkkhaycw6f8f4.soundcloud.com
 99.86.59.55     l9bjkkhaycw6f8f4.soundcloud.com
 99.86.59.64     l9bjkkhaycw6f8f4.soundcloud.com
+68.232.44.127   m.soundcloud.com
 72.21.91.127    m.soundcloud.com
 13.226.11.56    promoted.soundcloud.com
 13.226.11.58    promoted.soundcloud.com
@@ -13521,7 +13512,6 @@
 173.194.198.121 www.thegobridgeoglepuzzle.com
 173.194.74.121  www.thegobridgeoglepuzzle.com
 209.85.200.121  www.thegobridgeoglepuzzle.com
-216.239.38.21   www.thegobridgeoglepuzzle.com
 216.58.200.243  www.thegobridgeoglepuzzle.com
 216.58.200.51   www.thegobridgeoglepuzzle.com
 64.233.181.121  www.thegobridgeoglepuzzle.com
@@ -13547,7 +13537,6 @@
 173.194.198.121 www.thegooglepuzzle.com
 209.85.200.121  www.thegooglepuzzle.com
 209.85.234.121  www.thegooglepuzzle.com
-216.239.38.21   www.thegooglepuzzle.com
 216.58.200.51   www.thegooglepuzzle.com
 64.233.182.121  www.thegooglepuzzle.com
 64.233.191.121  www.thegooglepuzzle.com
@@ -13576,7 +13565,6 @@
 173.194.197.121 javascript-blocker.toggleable.com
 209.85.200.121  javascript-blocker.toggleable.com
 209.85.234.121  javascript-blocker.toggleable.com
-216.239.38.21   javascript-blocker.toggleable.com
 216.58.200.243  javascript-blocker.toggleable.com
 216.58.200.51   javascript-blocker.toggleable.com
 64.233.181.121  javascript-blocker.toggleable.com
@@ -13760,6 +13748,7 @@
 81.3.6.163      app.tutanota.com
 117.18.237.70   abs.twimg.com
 151.101.184.159 abs.twimg.com
+151.101.76.159  abs.twimg.com
 192.229.173.16  abs.twimg.com
 192.229.237.96  abs.twimg.com
 72.21.91.70     abs.twimg.com
@@ -13779,6 +13768,7 @@
 151.101.200.159 p.twimg.com
 151.101.228.159 p.twimg.com
 151.101.248.159 p.twimg.com
+151.101.76.159  p.twimg.com
 117.18.237.70   pbs.twimg.com
 151.101.184.159 pbs.twimg.com
 151.101.248.159 pbs.twimg.com
@@ -13872,7 +13862,6 @@
 169.46.12.68    batch.upsight-api.com
 169.46.12.70    batch.upsight-api.com
 169.46.12.79    batch.upsight-api.com
-119.81.248.34   bootstrap.upsight-api.com
 119.81.248.44   bootstrap.upsight-api.com
 169.44.145.213  bootstrap.upsight-api.com
 169.44.145.214  bootstrap.upsight-api.com
@@ -13880,7 +13869,6 @@
 169.46.12.68    bootstrap.upsight-api.com
 169.46.12.70    bootstrap.upsight-api.com
 169.46.12.79    bootstrap.upsight-api.com
-119.81.248.34   single.upsight-api.com
 119.81.248.44   single.upsight-api.com
 169.44.145.213  single.upsight-api.com
 169.44.145.214  single.upsight-api.com
@@ -14560,6 +14548,7 @@
 104.75.169.66   scd.cn.rfi.fr
 104.80.88.106   scd.cn.rfi.fr
 104.80.88.121   scd.cn.rfi.fr
+104.91.166.10   scd.cn.rfi.fr
 165.254.94.11   scd.cn.rfi.fr
 165.254.94.160  scd.cn.rfi.fr
 165.254.94.168  scd.cn.rfi.fr
@@ -14621,6 +14610,7 @@
 104.75.169.66   scd.rfi.fr
 104.80.88.106   scd.rfi.fr
 104.80.88.121   scd.rfi.fr
+104.91.166.10   scd.rfi.fr
 165.254.94.11   scd.rfi.fr
 165.254.94.56   scd.rfi.fr
 165.254.95.25   scd.rfi.fr
@@ -14761,7 +14751,6 @@
 108.177.111.94  www.google.gm
 216.239.32.21   blog.google
 216.239.34.21   blog.google
-216.239.38.21   blog.google
 108.177.111.121 www.blog.google
 108.177.112.121 www.blog.google
 108.177.120.121 www.blog.google
@@ -14795,7 +14784,6 @@
 108.177.111.139 www.domains.google
 216.239.32.21   environment.google
 216.239.34.21   environment.google
-216.239.38.21   environment.google
 108.177.111.100 www.registry.google
 108.177.111.101 www.registry.google
 108.177.111.102 www.registry.google
@@ -15061,7 +15049,6 @@
 74.125.70.121   code.getmdl.io
 216.239.32.21   material.io
 216.239.34.21   material.io
-216.239.38.21   material.io
 108.177.111.103 google.com.iq
 108.177.111.104 google.com.iq
 108.177.111.105 google.com.iq
@@ -15249,6 +15236,7 @@
 99.86.58.7      soundwave.clyp.it
 99.86.58.94     soundwave.clyp.it
 13.224.2.26     static.clyp.it
+13.224.2.41     static.clyp.it
 13.224.2.55     static.clyp.it
 13.224.2.92     static.clyp.it
 13.225.62.52    static.clyp.it
@@ -15574,7 +15562,6 @@
 183.79.250.251  search.yahoo.co.jp
 150.95.236.68   cp.conoha.jp
 157.7.225.122   cp.conoha.jp
-150.95.236.31   manage.conoha.jp
 150.95.236.28   www.conoha.jp
 108.177.111.121 www.gosetsuden.jp
 108.177.112.121 www.gosetsuden.jp
@@ -15588,7 +15575,6 @@
 173.194.197.121 www.gosetsuden.jp
 173.194.198.121 www.gosetsuden.jp
 209.85.200.121  www.gosetsuden.jp
-216.239.38.21   www.gosetsuden.jp
 216.58.200.243  www.gosetsuden.jp
 216.58.200.51   www.gosetsuden.jp
 64.233.182.121  www.gosetsuden.jp
@@ -15816,6 +15802,7 @@
 108.177.111.147 google.me
 108.177.111.99  google.me
 108.177.111.94  www.google.me
+203.104.138.138 line.me
 104.93.0.44     access.line.me
 23.202.232.22   access.line.me
 23.218.33.172   access.line.me
@@ -15837,6 +15824,7 @@
 203.104.129.221 entry-at.line.me
 104.124.13.7    event-web.line.me
 104.127.194.86  event-web.line.me
+104.70.236.43   event-web.line.me
 104.87.12.35    event-web.line.me
 184.25.122.85   event-web.line.me
 184.27.220.54   event-web.line.me
@@ -15851,7 +15839,6 @@
 104.124.13.7    help.line.me
 184.27.220.54   help.line.me
 184.29.92.55    help.line.me
-2.17.50.95      help.line.me
 23.10.12.24     help.line.me
 23.202.232.22   help.line.me
 23.218.33.172   help.line.me
@@ -15867,6 +15854,7 @@
 203.104.131.93  manga.line.me
 203.104.130.159 manual-at.line.me
 104.124.13.7    media.line.me
+104.70.236.43   media.line.me
 104.87.12.35    media.line.me
 184.25.122.85   media.line.me
 184.27.220.54   media.line.me
@@ -15917,6 +15905,7 @@
 96.16.208.47    terms.line.me
 104.124.13.7    ticket.line.me
 104.127.194.86  ticket.line.me
+104.70.236.43   ticket.line.me
 104.87.12.35    ticket.line.me
 184.25.122.85   ticket.line.me
 184.27.220.54   ticket.line.me
@@ -16015,7 +16004,6 @@
 172.217.160.0   www.google.com.na
 108.177.111.94  google.ne
 108.177.111.94  www.google.ne
-172.217.24.10   tsa01s07-in-f10.1e100.net
 108.177.111.100 redirector.c.2mdn.net
 108.177.111.101 redirector.c.2mdn.net
 108.177.111.102 redirector.c.2mdn.net
@@ -16226,6 +16214,7 @@
 104.80.89.121   fb-l-a-a.akamaihd.net
 104.80.89.97    fb-l-a-a.akamaihd.net
 104.80.89.99    fb-l-a-a.akamaihd.net
+104.91.166.10   fb-l-a-a.akamaihd.net
 104.91.166.11   fb-l-a-a.akamaihd.net
 104.91.166.122  fb-l-a-a.akamaihd.net
 104.91.166.123  fb-l-a-a.akamaihd.net
@@ -16778,6 +16767,7 @@
 23.218.156.48   fb-l-c-a.akamaihd.net
 23.4.240.10     fb-l-c-a.akamaihd.net
 23.4.240.11     fb-l-c-a.akamaihd.net
+23.4.240.17     fb-l-c-a.akamaihd.net
 23.4.240.32     fb-l-c-a.akamaihd.net
 23.4.240.43     fb-l-c-a.akamaihd.net
 23.4.240.65     fb-l-c-a.akamaihd.net
@@ -17602,6 +17592,7 @@
 23.216.12.98    fb-s-c-a.akamaihd.net
 23.4.240.10     fb-s-c-a.akamaihd.net
 23.4.240.11     fb-s-c-a.akamaihd.net
+23.4.240.17     fb-s-c-a.akamaihd.net
 23.4.240.32     fb-s-c-a.akamaihd.net
 23.4.240.43     fb-s-c-a.akamaihd.net
 23.4.240.65     fb-s-c-a.akamaihd.net
@@ -17616,6 +17607,7 @@
 23.48.201.75    fb-s-c-a.akamaihd.net
 23.48.201.80    fb-s-c-a.akamaihd.net
 23.48.201.82    fb-s-c-a.akamaihd.net
+23.48.201.90    fb-s-c-a.akamaihd.net
 23.48.94.120    fb-s-c-a.akamaihd.net
 23.48.94.121    fb-s-c-a.akamaihd.net
 23.48.94.129    fb-s-c-a.akamaihd.net
@@ -17958,7 +17950,6 @@
 23.54.124.144   igcdn-videos-a-10-a.akamaihd.net
 23.54.124.146   igcdn-videos-a-10-a.akamaihd.net
 23.65.182.147   igcdn-videos-a-10-a.akamaihd.net
-23.65.182.202   igcdn-videos-a-10-a.akamaihd.net
 63.239.232.203  igcdn-videos-a-10-a.akamaihd.net
 63.239.232.233  igcdn-videos-a-10-a.akamaihd.net
 63.239.232.250  igcdn-videos-a-10-a.akamaihd.net
@@ -18002,6 +17993,7 @@
 131.103.136.48  igcdn-videos-a-13-a.akamaihd.net
 131.103.136.59  igcdn-videos-a-13-a.akamaihd.net
 184.51.198.114  igcdn-videos-a-13-a.akamaihd.net
+184.51.198.138  igcdn-videos-a-13-a.akamaihd.net
 198.144.115.137 igcdn-videos-a-13-a.akamaihd.net
 198.144.115.98  igcdn-videos-a-13-a.akamaihd.net
 23.210.202.226  igcdn-videos-a-13-a.akamaihd.net
@@ -18082,6 +18074,7 @@
 23.42.156.42    igcdn-videos-a-17-a.akamaihd.net
 23.54.124.104   igcdn-videos-a-17-a.akamaihd.net
 23.54.124.147   igcdn-videos-a-17-a.akamaihd.net
+23.65.182.170   igcdn-videos-a-17-a.akamaihd.net
 23.65.182.171   igcdn-videos-a-17-a.akamaihd.net
 63.239.232.209  igcdn-videos-a-17-a.akamaihd.net
 63.239.232.242  igcdn-videos-a-17-a.akamaihd.net
@@ -18248,6 +18241,7 @@
 23.35.111.27    igcdn-videos-b-12-a.akamaihd.net
 23.35.111.75    igcdn-videos-b-12-a.akamaihd.net
 23.65.182.160   igcdn-videos-b-12-a.akamaihd.net
+23.65.182.170   igcdn-videos-b-12-a.akamaihd.net
 63.239.232.203  igcdn-videos-b-12-a.akamaihd.net
 63.239.232.216  igcdn-videos-b-12-a.akamaihd.net
 63.239.232.234  igcdn-videos-b-12-a.akamaihd.net
@@ -18276,6 +18270,7 @@
 198.144.115.112 igcdn-videos-b-14-a.akamaihd.net
 198.144.115.120 igcdn-videos-b-14-a.akamaihd.net
 198.144.115.75  igcdn-videos-b-14-a.akamaihd.net
+23.42.156.24    igcdn-videos-b-14-a.akamaihd.net
 23.65.182.154   igcdn-videos-b-14-a.akamaihd.net
 23.65.182.193   igcdn-videos-b-14-a.akamaihd.net
 63.239.232.210  igcdn-videos-b-14-a.akamaihd.net
@@ -18313,6 +18308,7 @@
 198.144.115.107 igcdn-videos-b-16-a.akamaihd.net
 198.144.115.83  igcdn-videos-b-16-a.akamaihd.net
 23.32.3.241     igcdn-videos-b-16-a.akamaihd.net
+23.35.111.66    igcdn-videos-b-16-a.akamaihd.net
 23.35.111.81    igcdn-videos-b-16-a.akamaihd.net
 63.239.232.226  igcdn-videos-b-16-a.akamaihd.net
 63.239.232.235  igcdn-videos-b-16-a.akamaihd.net
@@ -18341,6 +18337,7 @@
 95.100.97.185   igcdn-videos-b-17-a.akamaihd.net
 131.103.136.33  igcdn-videos-b-18-a.akamaihd.net
 131.103.136.66  igcdn-videos-b-18-a.akamaihd.net
+184.51.198.138  igcdn-videos-b-18-a.akamaihd.net
 198.144.115.123 igcdn-videos-b-18-a.akamaihd.net
 198.144.115.129 igcdn-videos-b-18-a.akamaihd.net
 198.144.115.145 igcdn-videos-b-18-a.akamaihd.net
@@ -18356,6 +18353,7 @@
 80.12.98.56     igcdn-videos-b-18-a.akamaihd.net
 131.103.136.17  igcdn-videos-b-19-a.akamaihd.net
 131.103.136.24  igcdn-videos-b-19-a.akamaihd.net
+184.51.198.115  igcdn-videos-b-19-a.akamaihd.net
 184.51.198.99   igcdn-videos-b-19-a.akamaihd.net
 198.144.115.112 igcdn-videos-b-19-a.akamaihd.net
 198.144.115.136 igcdn-videos-b-19-a.akamaihd.net
@@ -18364,7 +18362,6 @@
 23.32.3.240     igcdn-videos-b-19-a.akamaihd.net
 23.54.124.129   igcdn-videos-b-19-a.akamaihd.net
 23.65.182.187   igcdn-videos-b-19-a.akamaihd.net
-23.65.182.202   igcdn-videos-b-19-a.akamaihd.net
 63.239.232.225  igcdn-videos-b-19-a.akamaihd.net
 63.239.232.227  igcdn-videos-b-19-a.akamaihd.net
 80.12.98.19     igcdn-videos-b-19-a.akamaihd.net
@@ -18408,6 +18405,7 @@
 198.144.115.90  igcdn-videos-b-6-a.akamaihd.net
 23.35.111.17    igcdn-videos-b-6-a.akamaihd.net
 23.35.111.65    igcdn-videos-b-6-a.akamaihd.net
+23.65.182.170   igcdn-videos-b-6-a.akamaihd.net
 23.65.182.211   igcdn-videos-b-6-a.akamaihd.net
 63.239.232.224  igcdn-videos-b-6-a.akamaihd.net
 63.239.232.240  igcdn-videos-b-6-a.akamaihd.net
@@ -18453,6 +18451,7 @@
 131.103.136.18  igcdn-videos-b-9-a.akamaihd.net
 131.103.136.26  igcdn-videos-b-9-a.akamaihd.net
 184.51.198.120  igcdn-videos-b-9-a.akamaihd.net
+184.51.198.97   igcdn-videos-b-9-a.akamaihd.net
 198.144.115.112 igcdn-videos-b-9-a.akamaihd.net
 198.144.115.123 igcdn-videos-b-9-a.akamaihd.net
 198.144.115.128 igcdn-videos-b-9-a.akamaihd.net
@@ -18551,6 +18550,7 @@
 80.12.98.48     igcdn-videos-c-12-a.akamaihd.net
 131.103.136.18  igcdn-videos-c-13-a.akamaihd.net
 131.103.136.51  igcdn-videos-c-13-a.akamaihd.net
+184.51.198.115  igcdn-videos-c-13-a.akamaihd.net
 184.51.198.120  igcdn-videos-c-13-a.akamaihd.net
 198.144.115.107 igcdn-videos-c-13-a.akamaihd.net
 198.144.115.120 igcdn-videos-c-13-a.akamaihd.net
@@ -18606,6 +18606,7 @@
 131.103.136.32  igcdn-videos-c-16-a.akamaihd.net
 131.103.136.56  igcdn-videos-c-16-a.akamaihd.net
 131.103.136.8   igcdn-videos-c-16-a.akamaihd.net
+184.51.198.115  igcdn-videos-c-16-a.akamaihd.net
 184.51.198.122  igcdn-videos-c-16-a.akamaihd.net
 198.144.115.131 igcdn-videos-c-16-a.akamaihd.net
 198.144.115.88  igcdn-videos-c-16-a.akamaihd.net
@@ -18633,7 +18634,6 @@
 23.35.111.16    igcdn-videos-c-17-a.akamaihd.net
 23.35.111.51    igcdn-videos-c-17-a.akamaihd.net
 23.42.156.10    igcdn-videos-c-17-a.akamaihd.net
-23.54.124.106   igcdn-videos-c-17-a.akamaihd.net
 23.54.124.114   igcdn-videos-c-17-a.akamaihd.net
 63.239.232.226  igcdn-videos-c-17-a.akamaihd.net
 63.239.232.227  igcdn-videos-c-17-a.akamaihd.net
@@ -18644,6 +18644,7 @@
 131.103.136.19  igcdn-videos-c-18-a.akamaihd.net
 131.103.136.65  igcdn-videos-c-18-a.akamaihd.net
 184.51.198.106  igcdn-videos-c-18-a.akamaihd.net
+184.51.198.115  igcdn-videos-c-18-a.akamaihd.net
 198.144.115.75  igcdn-videos-c-18-a.akamaihd.net
 198.144.115.82  igcdn-videos-c-18-a.akamaihd.net
 198.144.115.97  igcdn-videos-c-18-a.akamaihd.net
@@ -18671,6 +18672,7 @@
 198.144.115.88  igcdn-videos-c-19-a.akamaihd.net
 23.35.111.25    igcdn-videos-c-19-a.akamaihd.net
 23.35.111.91    igcdn-videos-c-19-a.akamaihd.net
+23.42.156.24    igcdn-videos-c-19-a.akamaihd.net
 23.54.124.146   igcdn-videos-c-19-a.akamaihd.net
 23.54.124.154   igcdn-videos-c-19-a.akamaihd.net
 23.65.182.155   igcdn-videos-c-19-a.akamaihd.net
@@ -18681,12 +18683,14 @@
 80.12.98.75     igcdn-videos-c-19-a.akamaihd.net
 131.103.136.42  igcdn-videos-c-2-a.akamaihd.net
 131.103.136.65  igcdn-videos-c-2-a.akamaihd.net
+184.51.198.138  igcdn-videos-c-2-a.akamaihd.net
 184.51.198.96   igcdn-videos-c-2-a.akamaihd.net
 198.144.115.104 igcdn-videos-c-2-a.akamaihd.net
 198.144.115.113 igcdn-videos-c-2-a.akamaihd.net
 198.144.115.137 igcdn-videos-c-2-a.akamaihd.net
 23.35.111.35    igcdn-videos-c-2-a.akamaihd.net
 23.35.111.75    igcdn-videos-c-2-a.akamaihd.net
+23.42.156.24    igcdn-videos-c-2-a.akamaihd.net
 23.65.182.176   igcdn-videos-c-2-a.akamaihd.net
 23.65.182.194   igcdn-videos-c-2-a.akamaihd.net
 63.239.232.225  igcdn-videos-c-2-a.akamaihd.net
@@ -18738,8 +18742,8 @@
 23.215.128.154  igcdn-videos-c-5-a.akamaihd.net
 23.35.111.75    igcdn-videos-c-5-a.akamaihd.net
 23.35.111.98    igcdn-videos-c-5-a.akamaihd.net
+23.42.156.24    igcdn-videos-c-5-a.akamaihd.net
 23.54.124.104   igcdn-videos-c-5-a.akamaihd.net
-23.54.124.106   igcdn-videos-c-5-a.akamaihd.net
 23.65.182.145   igcdn-videos-c-5-a.akamaihd.net
 23.65.182.147   igcdn-videos-c-5-a.akamaihd.net
 63.239.232.218  igcdn-videos-c-5-a.akamaihd.net
@@ -18755,7 +18759,6 @@
 23.35.111.43    igcdn-videos-c-6-a.akamaihd.net
 23.35.111.8     igcdn-videos-c-6-a.akamaihd.net
 23.65.182.193   igcdn-videos-c-6-a.akamaihd.net
-23.65.182.202   igcdn-videos-c-6-a.akamaihd.net
 63.239.232.232  igcdn-videos-c-6-a.akamaihd.net
 63.239.232.250  igcdn-videos-c-6-a.akamaihd.net
 80.12.98.64     igcdn-videos-c-6-a.akamaihd.net
@@ -18781,6 +18784,7 @@
 131.103.136.10  igcdn-videos-c-8-a.akamaihd.net
 131.103.136.33  igcdn-videos-c-8-a.akamaihd.net
 131.103.136.48  igcdn-videos-c-8-a.akamaihd.net
+184.51.198.115  igcdn-videos-c-8-a.akamaihd.net
 184.51.198.120  igcdn-videos-c-8-a.akamaihd.net
 198.144.115.105 igcdn-videos-c-8-a.akamaihd.net
 198.144.115.131 igcdn-videos-c-8-a.akamaihd.net
@@ -18861,6 +18865,7 @@
 131.103.136.11  igcdn-videos-d-11-a.akamaihd.net
 131.103.136.66  igcdn-videos-d-11-a.akamaihd.net
 184.51.198.121  igcdn-videos-d-11-a.akamaihd.net
+184.51.198.97   igcdn-videos-d-11-a.akamaihd.net
 198.144.115.107 igcdn-videos-d-11-a.akamaihd.net
 198.144.115.114 igcdn-videos-d-11-a.akamaihd.net
 198.144.115.81  igcdn-videos-d-11-a.akamaihd.net
@@ -18894,6 +18899,7 @@
 131.103.136.24  igcdn-videos-d-13-a.akamaihd.net
 131.103.136.50  igcdn-videos-d-13-a.akamaihd.net
 184.51.198.122  igcdn-videos-d-13-a.akamaihd.net
+184.51.198.138  igcdn-videos-d-13-a.akamaihd.net
 198.144.115.128 igcdn-videos-d-13-a.akamaihd.net
 198.144.115.98  igcdn-videos-d-13-a.akamaihd.net
 23.32.3.240     igcdn-videos-d-13-a.akamaihd.net
@@ -18911,6 +18917,7 @@
 131.103.136.35  igcdn-videos-d-14-a.akamaihd.net
 131.103.136.59  igcdn-videos-d-14-a.akamaihd.net
 184.51.198.106  igcdn-videos-d-14-a.akamaihd.net
+184.51.198.97   igcdn-videos-d-14-a.akamaihd.net
 198.144.115.105 igcdn-videos-d-14-a.akamaihd.net
 198.144.115.81  igcdn-videos-d-14-a.akamaihd.net
 198.144.115.96  igcdn-videos-d-14-a.akamaihd.net
@@ -19113,6 +19120,7 @@
 131.103.136.51  igcdn-videos-d-8-a.akamaihd.net
 131.103.136.56  igcdn-videos-d-8-a.akamaihd.net
 184.51.198.106  igcdn-videos-d-8-a.akamaihd.net
+184.51.198.97   igcdn-videos-d-8-a.akamaihd.net
 198.144.115.114 igcdn-videos-d-8-a.akamaihd.net
 198.144.115.122 igcdn-videos-d-8-a.akamaihd.net
 198.144.115.91  igcdn-videos-d-8-a.akamaihd.net
@@ -19157,6 +19165,7 @@
 23.42.156.19    igcdn-videos-e-0-a.akamaihd.net
 23.54.124.104   igcdn-videos-e-0-a.akamaihd.net
 23.54.124.136   igcdn-videos-e-0-a.akamaihd.net
+23.65.182.170   igcdn-videos-e-0-a.akamaihd.net
 23.65.182.194   igcdn-videos-e-0-a.akamaihd.net
 63.239.232.218  igcdn-videos-e-0-a.akamaihd.net
 63.239.232.224  igcdn-videos-e-0-a.akamaihd.net
@@ -19208,6 +19217,7 @@
 23.35.111.49    igcdn-videos-e-11-a.akamaihd.net
 23.35.111.74    igcdn-videos-e-11-a.akamaihd.net
 23.65.182.130   igcdn-videos-e-11-a.akamaihd.net
+23.65.182.170   igcdn-videos-e-11-a.akamaihd.net
 63.239.232.225  igcdn-videos-e-11-a.akamaihd.net
 63.239.232.250  igcdn-videos-e-11-a.akamaihd.net
 131.103.136.33  igcdn-videos-e-12-a.akamaihd.net
@@ -19292,7 +19302,6 @@
 198.144.115.138 igcdn-videos-e-16-a.akamaihd.net
 23.35.111.105   igcdn-videos-e-16-a.akamaihd.net
 23.35.111.26    igcdn-videos-e-16-a.akamaihd.net
-23.65.182.202   igcdn-videos-e-16-a.akamaihd.net
 23.65.182.209   igcdn-videos-e-16-a.akamaihd.net
 63.239.232.203  igcdn-videos-e-16-a.akamaihd.net
 63.239.232.211  igcdn-videos-e-16-a.akamaihd.net
@@ -19342,6 +19351,7 @@
 198.144.115.144 igcdn-videos-e-19-a.akamaihd.net
 23.35.111.16    igcdn-videos-e-19-a.akamaihd.net
 23.35.111.49    igcdn-videos-e-19-a.akamaihd.net
+23.42.156.24    igcdn-videos-e-19-a.akamaihd.net
 23.65.182.154   igcdn-videos-e-19-a.akamaihd.net
 23.65.182.185   igcdn-videos-e-19-a.akamaihd.net
 63.239.232.217  igcdn-videos-e-19-a.akamaihd.net
@@ -19369,6 +19379,7 @@
 131.103.136.42  igcdn-videos-e-3-a.akamaihd.net
 131.103.136.48  igcdn-videos-e-3-a.akamaihd.net
 131.103.136.8   igcdn-videos-e-3-a.akamaihd.net
+184.51.198.115  igcdn-videos-e-3-a.akamaihd.net
 184.51.198.145  igcdn-videos-e-3-a.akamaihd.net
 198.144.115.112 igcdn-videos-e-3-a.akamaihd.net
 198.144.115.136 igcdn-videos-e-3-a.akamaihd.net
@@ -19384,6 +19395,8 @@
 80.12.98.73     igcdn-videos-e-3-a.akamaihd.net
 131.103.136.10  igcdn-videos-e-4-a.akamaihd.net
 131.103.136.18  igcdn-videos-e-4-a.akamaihd.net
+184.51.198.115  igcdn-videos-e-4-a.akamaihd.net
+184.51.198.138  igcdn-videos-e-4-a.akamaihd.net
 198.144.115.121 igcdn-videos-e-4-a.akamaihd.net
 198.144.115.139 igcdn-videos-e-4-a.akamaihd.net
 23.32.3.224     igcdn-videos-e-4-a.akamaihd.net
@@ -19423,6 +19436,7 @@
 198.144.115.130 igcdn-videos-e-6-a.akamaihd.net
 198.144.115.97  igcdn-videos-e-6-a.akamaihd.net
 23.35.111.32    igcdn-videos-e-6-a.akamaihd.net
+23.35.111.66    igcdn-videos-e-6-a.akamaihd.net
 23.65.182.155   igcdn-videos-e-6-a.akamaihd.net
 23.65.182.160   igcdn-videos-e-6-a.akamaihd.net
 63.239.232.209  igcdn-videos-e-6-a.akamaihd.net
@@ -19479,6 +19493,7 @@
 23.35.111.10    igcdn-videos-e-9-a.akamaihd.net
 23.35.111.49    igcdn-videos-e-9-a.akamaihd.net
 23.65.182.136   igcdn-videos-e-9-a.akamaihd.net
+23.65.182.170   igcdn-videos-e-9-a.akamaihd.net
 63.239.232.209  igcdn-videos-e-9-a.akamaihd.net
 63.239.232.243  igcdn-videos-e-9-a.akamaihd.net
 80.12.98.33     igcdn-videos-e-9-a.akamaihd.net
@@ -19501,6 +19516,7 @@
 131.103.136.18  igcdn-videos-f-1-a.akamaihd.net
 131.103.136.59  igcdn-videos-f-1-a.akamaihd.net
 184.51.198.144  igcdn-videos-f-1-a.akamaihd.net
+184.51.198.97   igcdn-videos-f-1-a.akamaihd.net
 198.144.115.107 igcdn-videos-f-1-a.akamaihd.net
 198.144.115.145 igcdn-videos-f-1-a.akamaihd.net
 198.144.115.96  igcdn-videos-f-1-a.akamaihd.net
@@ -19555,6 +19571,7 @@
 95.100.97.192   igcdn-videos-f-11-a.akamaihd.net
 131.103.136.35  igcdn-videos-f-12-a.akamaihd.net
 131.103.136.51  igcdn-videos-f-12-a.akamaihd.net
+184.51.198.115  igcdn-videos-f-12-a.akamaihd.net
 184.51.198.136  igcdn-videos-f-12-a.akamaihd.net
 198.144.115.106 igcdn-videos-f-12-a.akamaihd.net
 198.144.115.91  igcdn-videos-f-12-a.akamaihd.net
@@ -19657,7 +19674,6 @@
 23.42.156.26    igcdn-videos-f-17-a.akamaihd.net
 23.54.124.160   igcdn-videos-f-17-a.akamaihd.net
 23.65.182.184   igcdn-videos-f-17-a.akamaihd.net
-23.65.182.202   igcdn-videos-f-17-a.akamaihd.net
 63.239.232.219  igcdn-videos-f-17-a.akamaihd.net
 63.239.232.242  igcdn-videos-f-17-a.akamaihd.net
 63.239.232.250  igcdn-videos-f-17-a.akamaihd.net
@@ -19677,6 +19693,7 @@
 63.239.232.210  igcdn-videos-f-18-a.akamaihd.net
 63.239.232.250  igcdn-videos-f-18-a.akamaihd.net
 72.246.150.123  igcdn-videos-f-18-a.akamaihd.net
+72.246.150.155  igcdn-videos-f-18-a.akamaihd.net
 131.103.136.27  igcdn-videos-f-19-a.akamaihd.net
 131.103.136.59  igcdn-videos-f-19-a.akamaihd.net
 184.51.198.106  igcdn-videos-f-19-a.akamaihd.net
@@ -19782,6 +19799,7 @@
 131.103.136.48  igcdn-videos-f-7-a.akamaihd.net
 131.103.136.50  igcdn-videos-f-7-a.akamaihd.net
 184.51.198.107  igcdn-videos-f-7-a.akamaihd.net
+184.51.198.97   igcdn-videos-f-7-a.akamaihd.net
 198.144.115.105 igcdn-videos-f-7-a.akamaihd.net
 198.144.115.130 igcdn-videos-f-7-a.akamaihd.net
 23.210.202.234  igcdn-videos-f-7-a.akamaihd.net
@@ -19803,6 +19821,7 @@
 198.144.115.83  igcdn-videos-f-8-a.akamaihd.net
 23.35.111.74    igcdn-videos-f-8-a.akamaihd.net
 23.35.111.81    igcdn-videos-f-8-a.akamaihd.net
+23.42.156.24    igcdn-videos-f-8-a.akamaihd.net
 23.65.182.131   igcdn-videos-f-8-a.akamaihd.net
 23.65.182.153   igcdn-videos-f-8-a.akamaihd.net
 63.239.232.227  igcdn-videos-f-8-a.akamaihd.net
@@ -19869,7 +19888,6 @@
 23.32.3.226     igcdn-videos-g-10-a.akamaihd.net
 23.35.111.67    igcdn-videos-g-10-a.akamaihd.net
 23.35.111.91    igcdn-videos-g-10-a.akamaihd.net
-23.65.182.202   igcdn-videos-g-10-a.akamaihd.net
 23.65.182.210   igcdn-videos-g-10-a.akamaihd.net
 63.239.232.217  igcdn-videos-g-10-a.akamaihd.net
 63.239.232.233  igcdn-videos-g-10-a.akamaihd.net
@@ -20023,6 +20041,7 @@
 23.215.128.160  igcdn-videos-g-19-a.akamaihd.net
 23.35.111.19    igcdn-videos-g-19-a.akamaihd.net
 23.35.111.41    igcdn-videos-g-19-a.akamaihd.net
+23.42.156.24    igcdn-videos-g-19-a.akamaihd.net
 23.54.124.153   igcdn-videos-g-19-a.akamaihd.net
 23.54.124.155   igcdn-videos-g-19-a.akamaihd.net
 23.65.182.129   igcdn-videos-g-19-a.akamaihd.net
@@ -20078,7 +20097,6 @@
 23.35.111.67    igcdn-videos-g-4-a.akamaihd.net
 23.42.156.10    igcdn-videos-g-4-a.akamaihd.net
 23.65.182.177   igcdn-videos-g-4-a.akamaihd.net
-23.65.182.202   igcdn-videos-g-4-a.akamaihd.net
 63.239.232.203  igcdn-videos-g-4-a.akamaihd.net
 63.239.232.219  igcdn-videos-g-4-a.akamaihd.net
 63.239.232.225  igcdn-videos-g-4-a.akamaihd.net
@@ -20129,7 +20147,6 @@
 184.51.198.130  igcdn-videos-g-7-a.akamaihd.net
 198.144.115.121 igcdn-videos-g-7-a.akamaihd.net
 198.144.115.91  igcdn-videos-g-7-a.akamaihd.net
-23.15.138.158   igcdn-videos-g-7-a.akamaihd.net
 23.35.111.56    igcdn-videos-g-7-a.akamaihd.net
 23.35.111.64    igcdn-videos-g-7-a.akamaihd.net
 23.65.182.130   igcdn-videos-g-7-a.akamaihd.net
@@ -20304,6 +20321,7 @@
 131.103.136.11  igcdn-videos-h-15-a.akamaihd.net
 131.103.136.25  igcdn-videos-h-15-a.akamaihd.net
 184.51.198.113  igcdn-videos-h-15-a.akamaihd.net
+184.51.198.138  igcdn-videos-h-15-a.akamaihd.net
 198.144.115.112 igcdn-videos-h-15-a.akamaihd.net
 198.144.115.114 igcdn-videos-h-15-a.akamaihd.net
 198.144.115.81  igcdn-videos-h-15-a.akamaihd.net
@@ -20358,6 +20376,7 @@
 131.103.136.26  igcdn-videos-h-18-a.akamaihd.net
 131.103.136.35  igcdn-videos-h-18-a.akamaihd.net
 184.51.198.136  igcdn-videos-h-18-a.akamaihd.net
+184.51.198.97   igcdn-videos-h-18-a.akamaihd.net
 198.144.115.106 igcdn-videos-h-18-a.akamaihd.net
 198.144.115.114 igcdn-videos-h-18-a.akamaihd.net
 198.144.115.130 igcdn-videos-h-18-a.akamaihd.net
@@ -20416,6 +20435,7 @@
 198.144.115.98  igcdn-videos-h-3-a.akamaihd.net
 23.35.111.19    igcdn-videos-h-3-a.akamaihd.net
 23.35.111.26    igcdn-videos-h-3-a.akamaihd.net
+23.42.156.43    igcdn-videos-h-3-a.akamaihd.net
 23.65.182.160   igcdn-videos-h-3-a.akamaihd.net
 23.65.182.211   igcdn-videos-h-3-a.akamaihd.net
 63.239.232.216  igcdn-videos-h-3-a.akamaihd.net
@@ -20462,6 +20482,7 @@
 80.12.98.74     igcdn-videos-h-5-a.akamaihd.net
 131.103.136.33  igcdn-videos-h-6-a.akamaihd.net
 131.103.136.56  igcdn-videos-h-6-a.akamaihd.net
+184.51.198.115  igcdn-videos-h-6-a.akamaihd.net
 184.51.198.128  igcdn-videos-h-6-a.akamaihd.net
 198.144.115.107 igcdn-videos-h-6-a.akamaihd.net
 198.144.115.122 igcdn-videos-h-6-a.akamaihd.net
@@ -20492,6 +20513,7 @@
 131.103.136.42  igcdn-videos-h-8-a.akamaihd.net
 131.103.136.58  igcdn-videos-h-8-a.akamaihd.net
 184.51.198.107  igcdn-videos-h-8-a.akamaihd.net
+184.51.198.97   igcdn-videos-h-8-a.akamaihd.net
 198.144.115.114 igcdn-videos-h-8-a.akamaihd.net
 198.144.115.120 igcdn-videos-h-8-a.akamaihd.net
 198.144.115.138 igcdn-videos-h-8-a.akamaihd.net
@@ -20509,6 +20531,7 @@
 80.12.98.40     igcdn-videos-h-8-a.akamaihd.net
 131.103.136.11  igcdn-videos-h-9-a.akamaihd.net
 131.103.136.50  igcdn-videos-h-9-a.akamaihd.net
+184.51.198.138  igcdn-videos-h-9-a.akamaihd.net
 198.144.115.113 igcdn-videos-h-9-a.akamaihd.net
 198.144.115.121 igcdn-videos-h-9-a.akamaihd.net
 198.144.115.99  igcdn-videos-h-9-a.akamaihd.net
@@ -20600,6 +20623,7 @@
 23.63.71.11     lumiere-a.akamaihd.net
 23.63.71.42     lumiere-a.akamaihd.net
 23.63.71.9      lumiere-a.akamaihd.net
+61.213.151.34   lumiere-a.akamaihd.net
 13.224.35.74    a5.behance.net
 13.225.70.73    a5.behance.net
 13.226.9.73     a5.behance.net
@@ -20679,7 +20703,6 @@
 99.84.168.99    mir-s3-cdn-cf.behance.net
 99.84.254.19    mir-s3-cdn-cf.behance.net
 99.84.254.28    mir-s3-cdn-cf.behance.net
-99.84.254.58    mir-s3-cdn-cf.behance.net
 99.84.254.64    mir-s3-cdn-cf.behance.net
 99.84.8.114     mir-s3-cdn-cf.behance.net
 99.84.8.2       mir-s3-cdn-cf.behance.net
@@ -20692,6 +20715,7 @@
 151.101.1.197   www.behance.net
 151.101.129.197 www.behance.net
 151.101.193.197 www.behance.net
+151.101.65.197  www.behance.net
 104.16.74.20    cdn01.boxcdn.net
 104.18.103.56   cdn01.boxcdn.net
 104.27.152.164  chinadigitaltimes.net
@@ -20804,6 +20828,7 @@
 99.86.58.82     d3njjcbhbojbot.cloudfront.net
 203.133.167.16  daum.net
 203.133.167.81  daum.net
+211.231.99.17   daum.net
 211.231.99.80   daum.net
 27.0.236.83     100.daum.net
 113.29.189.134  ammonia.daum.net
@@ -22510,6 +22535,7 @@
 121.53.201.234  gargoyle.daum.net
 203.133.167.17  go.daum.net
 203.133.167.82  go.daum.net
+211.231.99.18   go.daum.net
 211.231.99.81   go.daum.net
 113.29.189.164  like.daum.net
 113.29.189.55   like.daum.net
@@ -23760,6 +23786,7 @@
 27.0.236.82     wordbook.daum.net
 203.133.167.16  www.daum.net
 203.133.167.81  www.daum.net
+211.231.99.17   www.daum.net
 211.231.99.80   www.daum.net
 115.127.250.11  img1.daumcdn.net
 115.127.250.27  img1.daumcdn.net
@@ -24172,6 +24199,7 @@
 99.84.168.93    i.deviantart.net
 99.84.181.12    i.deviantart.net
 99.84.181.129   i.deviantart.net
+99.84.181.72    i.deviantart.net
 99.84.181.76    i.deviantart.net
 99.84.254.10    i.deviantart.net
 99.84.254.34    i.deviantart.net
@@ -25304,6 +25332,7 @@
 52.84.64.183    s4.dwnews.net
 52.84.64.252    s4.dwnews.net
 52.84.64.35     s4.dwnews.net
+52.84.64.81     s4.dwnews.net
 52.85.149.23    s4.dwnews.net
 52.85.149.234   s4.dwnews.net
 52.85.149.55    s4.dwnews.net
@@ -25437,7 +25466,6 @@
 102.132.97.33   scontent-c.xx.fbcdn.net
 157.240.1.34    scontent-c.xx.fbcdn.net
 157.240.14.34   scontent-c.xx.fbcdn.net
-157.240.15.34   scontent-c.xx.fbcdn.net
 157.240.16.34   scontent-c.xx.fbcdn.net
 157.240.18.34   scontent-c.xx.fbcdn.net
 157.240.19.34   scontent-c.xx.fbcdn.net
@@ -25598,7 +25626,6 @@
 157.240.1.34    scontent-lax3-4.xx.fbcdn.net
 157.240.13.34   scontent-lax3-4.xx.fbcdn.net
 157.240.14.34   scontent-lax3-4.xx.fbcdn.net
-157.240.15.34   scontent-lax3-4.xx.fbcdn.net
 157.240.16.34   scontent-lax3-4.xx.fbcdn.net
 157.240.19.34   scontent-lax3-4.xx.fbcdn.net
 157.240.193.38  scontent-lax3-4.xx.fbcdn.net
@@ -25691,7 +25718,6 @@
 157.240.10.34   video-lax3-4.xx.fbcdn.net
 157.240.11.34   video-lax3-4.xx.fbcdn.net
 157.240.12.34   video-lax3-4.xx.fbcdn.net
-157.240.15.34   video-lax3-4.xx.fbcdn.net
 157.240.16.34   video-lax3-4.xx.fbcdn.net
 157.240.19.34   video-lax3-4.xx.fbcdn.net
 157.240.192.38  video-lax3-4.xx.fbcdn.net
@@ -25735,7 +25761,6 @@
 102.132.97.33   video-mrs1-2.xx.fbcdn.net
 157.240.10.34   video-mrs1-2.xx.fbcdn.net
 157.240.12.34   video-mrs1-2.xx.fbcdn.net
-157.240.15.34   video-mrs1-2.xx.fbcdn.net
 157.240.16.34   video-mrs1-2.xx.fbcdn.net
 157.240.18.34   video-mrs1-2.xx.fbcdn.net
 157.240.19.34   video-mrs1-2.xx.fbcdn.net
@@ -26826,7 +26851,6 @@
 173.194.197.121 dartpad.dartlang.org
 173.194.198.121 dartpad.dartlang.org
 209.85.200.121  dartpad.dartlang.org
-216.239.38.21   dartpad.dartlang.org
 216.58.200.51   dartpad.dartlang.org
 64.233.182.121  dartpad.dartlang.org
 64.233.191.121  dartpad.dartlang.org
@@ -26848,7 +26872,6 @@
 173.194.197.121 news.dartlang.org
 173.194.198.121 news.dartlang.org
 209.85.200.121  news.dartlang.org
-216.239.38.21   news.dartlang.org
 216.58.200.243  news.dartlang.org
 216.58.200.51   news.dartlang.org
 64.233.182.121  news.dartlang.org
@@ -26911,7 +26934,6 @@
 173.194.197.121 www.gwtproject.org
 173.194.198.121 www.gwtproject.org
 209.85.200.121  www.gwtproject.org
-216.239.38.21   www.gwtproject.org
 216.58.200.51   www.gwtproject.org
 64.233.182.121  www.gwtproject.org
 64.233.191.121  www.gwtproject.org
@@ -26928,7 +26950,6 @@
 162.249.111.210 www.hrichina.org
 216.239.32.21   polymer-project.org
 216.239.34.21   polymer-project.org
-216.239.38.21   polymer-project.org
 108.177.111.121 www.polymer-project.org
 108.177.112.121 www.polymer-project.org
 108.177.120.121 www.polymer-project.org
@@ -27077,7 +27098,6 @@
 209.85.145.121  www.waveprotocol.org
 209.85.200.121  www.waveprotocol.org
 209.85.234.121  www.waveprotocol.org
-216.239.38.21   www.waveprotocol.org
 216.58.197.243  www.waveprotocol.org
 216.58.200.51   www.waveprotocol.org
 74.125.126.121  www.waveprotocol.org
@@ -27105,7 +27125,6 @@
 173.194.197.121 blog.webmproject.org
 173.194.198.121 blog.webmproject.org
 209.85.200.121  blog.webmproject.org
-216.239.38.21   blog.webmproject.org
 216.58.200.51   blog.webmproject.org
 64.233.182.121  blog.webmproject.org
 64.233.191.121  blog.webmproject.org
@@ -27128,7 +27147,6 @@
 173.194.197.121 lists.webmproject.org
 173.194.198.121 lists.webmproject.org
 209.85.200.121  lists.webmproject.org
-216.239.38.21   lists.webmproject.org
 216.58.200.51   lists.webmproject.org
 64.233.182.121  lists.webmproject.org
 64.233.191.121  lists.webmproject.org
@@ -27159,7 +27177,6 @@
 209.85.145.121  webrtc.org
 209.85.200.121  webrtc.org
 209.85.234.121  webrtc.org
-216.239.38.21   webrtc.org
 216.58.200.243  webrtc.org
 216.58.200.51   webrtc.org
 74.125.124.121  webrtc.org
@@ -27177,7 +27194,6 @@
 173.194.197.121 www.webrtc.org
 173.194.198.121 www.webrtc.org
 209.85.200.121  www.webrtc.org
-216.239.38.21   www.webrtc.org
 216.58.200.243  www.webrtc.org
 216.58.200.51   www.webrtc.org
 64.233.182.121  www.webrtc.org
@@ -27541,6 +27557,7 @@
 151.101.2.164   prod-video-eu-central-1.pscp.tv
 151.101.230.164 prod-video-eu-central-1.pscp.tv
 151.101.66.164  prod-video-eu-central-1.pscp.tv
+151.101.110.164 prod-video-eu-west-1.pscp.tv
 151.101.130.164 prod-video-eu-west-1.pscp.tv
 151.101.194.164 prod-video-eu-west-1.pscp.tv
 151.101.2.164   prod-video-eu-west-1.pscp.tv
@@ -27913,7 +27930,6 @@
 34.213.71.53    spade.sci.twitch.tv
 34.213.93.174   spade.sci.twitch.tv
 34.223.205.237  spade.sci.twitch.tv
-34.223.240.178  spade.sci.twitch.tv
 35.161.182.231  spade.sci.twitch.tv
 35.161.26.223   spade.sci.twitch.tv
 35.163.32.174   spade.sci.twitch.tv
@@ -27959,6 +27975,7 @@
 54.191.31.253   spade.sci.twitch.tv
 54.191.52.207   spade.sci.twitch.tv
 54.200.12.25    spade.sci.twitch.tv
+54.201.190.12   spade.sci.twitch.tv
 54.201.25.216   spade.sci.twitch.tv
 54.213.18.92    spade.sci.twitch.tv
 54.213.79.121   spade.sci.twitch.tv
@@ -27973,7 +27990,6 @@
 34.213.173.148  spade.twitch.tv
 34.213.71.53    spade.twitch.tv
 34.223.205.237  spade.twitch.tv
-34.223.240.178  spade.twitch.tv
 35.161.182.231  spade.twitch.tv
 35.161.26.223   spade.twitch.tv
 35.163.32.174   spade.twitch.tv
@@ -28081,7 +28097,6 @@
 99.84.168.18    vod-storyboards.twitch.tv
 99.84.168.60    vod-storyboards.twitch.tv
 99.84.168.77    vod-storyboards.twitch.tv
-99.84.254.117   vod-storyboards.twitch.tv
 99.84.254.64    vod-storyboards.twitch.tv
 99.84.254.7     vod-storyboards.twitch.tv
 99.84.254.76    vod-storyboards.twitch.tv
