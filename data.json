@@ -1,18 +1,14 @@
 {
-	"youtube.com": {
-		"108.177.111.136": 0,
-		"108.177.111.190": 0,
-		"108.177.111.91": 0,
-		"108.177.111.93": 0
+	"blog.golang.org": {
+		"172.217.14.127": 0
 	},
-	"twitter.com": {},
-	"google.com": {},
-	"www.google.com": {},
-	"facebook.com": {},
-	"www.facebook.com": {},
+	"build.golang.org": {
+		"172.217.14.127": 0
+	},
 	"code.googlesource.com": {
 		"172.217.14.127": 0
 	},
+	"facebook.com": {},
 	"gist.github.com": {
 		"192.30.253.118": 0
 	},
@@ -24,12 +20,7 @@
 		"108.177.111.141": 0,
 		"172.217.14.127": 0
 	},
-	"blog.golang.org": {
-		"172.217.14.127": 0
-	},
-	"build.golang.org": {
-		"172.217.14.127": 0
-	},
+	"google.com": {},
 	"play.golang.org": {
 		"172.217.14.127": 0
 	},
@@ -39,7 +30,16 @@
 	"tour.golang.org": {
 		"172.217.14.127": 0
 	},
+	"twitter.com": {},
+	"www.facebook.com": {},
 	"www.golang.org": {
 		"172.217.161.49": 0
+	},
+	"www.google.com": {},
+	"youtube.com": {
+		"108.177.111.136": 0,
+		"108.177.111.190": 0,
+		"108.177.111.91": 0,
+		"108.177.111.93": 0
 	}
 }
