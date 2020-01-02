@@ -15,11 +15,18 @@
 108.177.111.106 www.google.com
 108.177.111.147 www.google.com
 108.177.111.99  www.google.com
+172.217.204.103 www.google.com
+172.217.204.104 www.google.com
+172.217.204.105 www.google.com
+172.217.204.106 www.google.com
+172.217.204.147 www.google.com
+172.217.204.99  www.google.com
 108.177.111.82  code.googlesource.com
 172.217.14.127  code.googlesource.com
 108.177.111.82  go.googlesource.com
 172.217.14.127  go.googlesource.com
 172.217.204.82  go.googlesource.com
+108.177.111.136 youtube.com
 108.177.111.190 youtube.com
 108.177.111.91  youtube.com
 108.177.111.93  youtube.com
@@ -27,6 +34,7 @@
 172.217.14.127  golang.org
 108.177.111.141 blog.golang.org
 172.217.14.127  blog.golang.org
+172.217.193.141 blog.golang.org
 172.217.204.141 blog.golang.org
 108.177.111.141 build.golang.org
 172.217.14.127  build.golang.org
@@ -36,6 +44,8 @@
 172.217.14.127  talks.golang.org
 108.177.111.141 tour.golang.org
 172.217.14.127  tour.golang.org
+172.217.204.141 tour.golang.org
 108.177.111.141 www.golang.org
 172.217.161.49  www.golang.org
 208.80.154.224  en.wikipedia.org
+208.80.154.224  zh.wikipedia.org
